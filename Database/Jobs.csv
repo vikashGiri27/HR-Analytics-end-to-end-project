@@ -1,0 +1,52 @@
+Job_ID,Job_Title,Grade,Minimum_Salary,Maximum_Salary
+J001,HR Executive,G2,35000,50000
+J002,HR Business Partner,G4,55000,75000
+J003,Recruiter,G3,40000,58000
+J004,HR Manager,G6,80000,110000
+J005,Chief HR Officer,G10,160000,220000
+J006,Financial Analyst,G3,45000,65000
+J007,Accountant,G2,38000,55000
+J008,Finance Manager,G6,85000,120000
+J009,Financial Controller,G8,120000,160000
+J010,Chief Financial Officer,G10,180000,260000
+J011,Software Engineer,G3,50000,75000
+J012,Senior Software Engineer,G5,80000,110000
+J013,QA Engineer,G3,45000,68000
+J014,DevOps Engineer,G5,75000,105000
+J015,Data Analyst,G3,48000,70000
+J016,Data Scientist,G5,85000,120000
+J017,System Administrator,G3,42000,63000
+J018,IT Manager,G6,95000,130000
+J019,Chief Technology Officer,G10,190000,270000
+J020,Sales Executive,G2,32000,48000
+J021,Account Manager,G4,55000,78000
+J022,Sales Manager,G6,85000,115000
+J023,Regional Sales Director,G8,120000,155000
+J024,VP of Sales,G9,150000,200000
+J025,Marketing Executive,G2,34000,50000
+J026,Content Strategist,G3,42000,60000
+J027,Brand Manager,G5,70000,95000
+J028,Marketing Manager,G6,82000,112000
+J029,Chief Marketing Officer,G10,165000,225000
+J030,Operations Executive,G2,33000,48000
+J031,Supply Chain Analyst,G4,50000,72000
+J032,Operations Manager,G6,84000,115000
+J033,VP of Operations,G9,145000,195000
+J034,Support Executive,G1,28000,40000
+J035,Support Team Lead,G4,48000,65000
+J036,Customer Success Manager,G6,70000,98000
+J037,Research Scientist,G5,75000,105000
+J038,R&D Engineer,G4,60000,88000
+J039,R&D Manager,G7,100000,135000
+J040,Chief Innovation Officer,G10,170000,230000
+J041,Legal Associate,G3,48000,68000
+J042,Legal Counsel,G6,95000,130000
+J043,Compliance Manager,G6,90000,120000
+J044,Procurement Executive,G2,34000,50000
+J045,Procurement Manager,G6,80000,108000
+J046,Vendor Relations Manager,G5,65000,90000
+J047,Admin Executive,G1,28000,42000
+J048,Office Manager,G4,50000,70000
+J049,Facilities Manager,G5,60000,82000
+J050,QA Analyst,G2,36000,52000
+J051,QA Manager,G6,80000,108000

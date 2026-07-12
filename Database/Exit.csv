@@ -1,0 +1,930 @@
+Exit_ID,Employee_ID,Exit_Date,Exit_Reason,Exit_Type,Notice_Period,Final_Rating
+EX00001,E00001,2025-05-14,Higher Education,Voluntary,45,Average
+EX00002,E00003,2023-10-16,Higher Education,Voluntary,15,Below Average
+EX00003,E00006,2022-08-22,Career Change,Voluntary,15,Good
+EX00004,E00008,2025-04-17,Layoff / Restructuring,Involuntary,45,Good
+EX00005,E00010,2022-06-12,Higher Education,Voluntary,15,Good
+EX00006,E00014,2022-12-08,Relocation,Voluntary,45,Good
+EX00007,E00020,2024-12-23,Policy Violation,Involuntary,60,Excellent
+EX00008,E00025,2022-03-30,Relocation,Voluntary,0,Good
+EX00009,E00029,2025-04-02,Better Opportunity,Voluntary,0,Below Average
+EX00010,E00030,2020-10-22,Retirement,Retirement,60,Good
+EX00011,E00031,2025-02-04,Relocation,Voluntary,30,Below Average
+EX00012,E00032,2023-02-17,Layoff / Restructuring,Involuntary,0,Poor
+EX00013,E00037,2024-11-01,Work-Life Balance,Voluntary,45,Average
+EX00014,E00038,2022-07-25,Work-Life Balance,Voluntary,7,Below Average
+EX00015,E00039,2024-12-02,Better Opportunity,Voluntary,15,Excellent
+EX00016,E00042,2022-10-16,Policy Violation,Involuntary,60,Excellent
+EX00017,E00043,2022-09-15,Career Change,Voluntary,15,Average
+EX00018,E00047,2024-06-05,Policy Violation,Involuntary,30,Average
+EX00019,E00050,2022-12-16,Layoff / Restructuring,Involuntary,30,Good
+EX00020,E00053,2021-02-19,Policy Violation,Involuntary,7,Good
+EX00021,E00058,2023-06-13,Work-Life Balance,Voluntary,15,Average
+EX00022,E00062,2023-09-04,Relocation,Voluntary,45,Excellent
+EX00023,E00065,2024-04-03,Relocation,Voluntary,0,Poor
+EX00024,E00074,2025-01-20,Better Opportunity,Voluntary,45,Average
+EX00025,E00076,2023-05-26,Higher Compensation,Voluntary,0,Average
+EX00026,E00077,2021-08-14,Work-Life Balance,Voluntary,15,Good
+EX00027,E00079,2024-12-17,Better Opportunity,Voluntary,60,Excellent
+EX00028,E00081,2021-07-30,Higher Education,Voluntary,7,Below Average
+EX00029,E00082,2024-08-04,Career Change,Voluntary,45,Excellent
+EX00030,E00084,2021-06-08,Higher Compensation,Voluntary,7,Average
+EX00031,E00091,2024-09-01,Performance Issues,Involuntary,7,Average
+EX00032,E00094,2024-01-24,Relocation,Voluntary,30,Average
+EX00033,E00100,2025-06-30,Higher Education,Voluntary,0,Below Average
+EX00034,E00103,2024-07-07,Better Opportunity,Voluntary,30,Good
+EX00035,E00104,2021-07-28,Relocation,Voluntary,45,Below Average
+EX00036,E00111,2025-05-22,Higher Compensation,Voluntary,7,Average
+EX00037,E00114,2023-08-23,Higher Compensation,Voluntary,0,Average
+EX00038,E00116,2022-06-17,Retirement,Retirement,7,Good
+EX00039,E00117,2024-02-26,Layoff / Restructuring,Involuntary,7,Average
+EX00040,E00118,2021-02-10,Higher Compensation,Voluntary,15,Excellent
+EX00041,E00125,2024-08-27,Higher Education,Voluntary,30,Excellent
+EX00042,E00129,2023-06-09,Policy Violation,Involuntary,15,Excellent
+EX00043,E00133,2023-06-20,Career Change,Voluntary,15,Excellent
+EX00044,E00136,2021-10-14,Retirement,Retirement,60,Good
+EX00045,E00138,2022-07-25,Work-Life Balance,Voluntary,60,Good
+EX00046,E00140,2024-06-02,Retirement,Retirement,30,Average
+EX00047,E00141,2024-10-03,Retirement,Retirement,15,Poor
+EX00048,E00144,2020-05-25,Layoff / Restructuring,Involuntary,7,Poor
+EX00049,E00150,2022-05-17,Better Opportunity,Voluntary,45,Good
+EX00050,E00151,2022-07-15,Layoff / Restructuring,Involuntary,30,Poor
+EX00051,E00154,2022-09-02,Performance Issues,Involuntary,60,Average
+EX00052,E00155,2025-06-07,Better Opportunity,Voluntary,15,Good
+EX00053,E00159,2024-01-25,Higher Compensation,Voluntary,45,Average
+EX00054,E00162,2023-01-12,Higher Education,Voluntary,0,Average
+EX00055,E00164,2024-04-09,Performance Issues,Involuntary,30,Below Average
+EX00056,E00166,2023-04-06,Higher Compensation,Voluntary,15,Good
+EX00057,E00169,2024-05-26,Higher Education,Voluntary,60,Average
+EX00058,E00175,2023-07-27,Better Opportunity,Voluntary,30,Average
+EX00059,E00176,2025-06-28,Relocation,Voluntary,7,Average
+EX00060,E00186,2023-01-17,Work-Life Balance,Voluntary,30,Below Average
+EX00061,E00190,2024-09-05,Higher Compensation,Voluntary,30,Good
+EX00062,E00192,2023-04-10,Career Change,Voluntary,45,Good
+EX00063,E00196,2024-11-03,Work-Life Balance,Voluntary,30,Average
+EX00064,E00204,2021-03-23,Career Change,Voluntary,60,Good
+EX00065,E00209,2022-10-06,Relocation,Voluntary,0,Average
+EX00066,E00212,2022-11-15,Relocation,Voluntary,15,Excellent
+EX00067,E00215,2025-03-21,Higher Education,Voluntary,45,Average
+EX00068,E00217,2024-11-15,Performance Issues,Involuntary,60,Excellent
+EX00069,E00220,2025-02-11,Higher Compensation,Voluntary,15,Excellent
+EX00070,E00221,2025-06-26,Career Change,Voluntary,7,Poor
+EX00071,E00227,2025-06-13,Higher Compensation,Voluntary,15,Average
+EX00072,E00228,2025-03-30,Career Change,Voluntary,15,Poor
+EX00073,E00229,2023-01-05,Relocation,Voluntary,15,Below Average
+EX00074,E00230,2021-09-18,Higher Education,Voluntary,30,Average
+EX00075,E00231,2025-06-28,Better Opportunity,Voluntary,7,Excellent
+EX00076,E00235,2021-04-21,Higher Education,Voluntary,15,Average
+EX00077,E00238,2023-12-21,Policy Violation,Involuntary,15,Good
+EX00078,E00239,2024-05-25,Career Change,Voluntary,30,Excellent
+EX00079,E00241,2025-06-14,Attendance Issues,Involuntary,45,Average
+EX00080,E00243,2024-01-02,Layoff / Restructuring,Involuntary,30,Poor
+EX00081,E00248,2023-01-26,Performance Issues,Involuntary,45,Average
+EX00082,E00252,2025-04-03,Higher Education,Voluntary,0,Average
+EX00083,E00254,2024-11-18,Higher Compensation,Voluntary,60,Average
+EX00084,E00256,2023-09-14,Better Opportunity,Voluntary,15,Excellent
+EX00085,E00266,2025-02-03,Performance Issues,Involuntary,0,Excellent
+EX00086,E00268,2022-02-16,Retirement,Retirement,60,Excellent
+EX00087,E00269,2024-06-08,Performance Issues,Involuntary,0,Average
+EX00088,E00275,2025-02-02,Attendance Issues,Involuntary,15,Below Average
+EX00089,E00276,2024-09-26,Better Opportunity,Voluntary,45,Below Average
+EX00090,E00278,2023-12-01,Retirement,Retirement,7,Excellent
+EX00091,E00281,2025-01-09,Attendance Issues,Involuntary,0,Average
+EX00092,E00282,2024-12-18,Higher Compensation,Voluntary,15,Good
+EX00093,E00287,2024-04-02,Performance Issues,Involuntary,30,Average
+EX00094,E00290,2024-08-26,Higher Education,Voluntary,60,Excellent
+EX00095,E00292,2024-01-04,Relocation,Voluntary,60,Average
+EX00096,E00294,2024-05-11,Policy Violation,Involuntary,7,Average
+EX00097,E00296,2023-09-24,Retirement,Retirement,60,Good
+EX00098,E00297,2025-04-10,Work-Life Balance,Voluntary,30,Average
+EX00099,E00303,2023-03-08,Better Opportunity,Voluntary,7,Average
+EX00100,E00305,2025-06-08,Attendance Issues,Involuntary,45,Below Average
+EX00101,E00314,2025-05-12,Performance Issues,Involuntary,60,Average
+EX00102,E00323,2024-05-01,Better Opportunity,Voluntary,60,Good
+EX00103,E00329,2024-04-30,Better Opportunity,Voluntary,7,Good
+EX00104,E00331,2024-11-19,Policy Violation,Involuntary,0,Poor
+EX00105,E00336,2023-12-13,Career Change,Voluntary,30,Average
+EX00106,E00337,2025-03-12,Relocation,Voluntary,15,Average
+EX00107,E00341,2024-08-01,Higher Education,Voluntary,60,Good
+EX00108,E00352,2025-06-07,Work-Life Balance,Voluntary,0,Below Average
+EX00109,E00353,2023-09-05,Performance Issues,Involuntary,45,Good
+EX00110,E00359,2024-10-27,Relocation,Voluntary,7,Average
+EX00111,E00362,2025-05-29,Higher Compensation,Voluntary,15,Good
+EX00112,E00367,2024-11-29,Career Change,Voluntary,45,Average
+EX00113,E00369,2024-11-17,Better Opportunity,Voluntary,15,Average
+EX00114,E00370,2023-10-24,Better Opportunity,Voluntary,45,Average
+EX00115,E00371,2023-04-20,Higher Compensation,Voluntary,30,Below Average
+EX00116,E00372,2025-05-09,Better Opportunity,Voluntary,45,Average
+EX00117,E00373,2022-11-18,Higher Compensation,Voluntary,60,Good
+EX00118,E00375,2024-04-11,Higher Education,Voluntary,15,Below Average
+EX00119,E00378,2024-11-13,Performance Issues,Involuntary,7,Average
+EX00120,E00379,2024-07-30,Layoff / Restructuring,Involuntary,0,Average
+EX00121,E00382,2024-05-19,Policy Violation,Involuntary,7,Average
+EX00122,E00383,2025-05-14,Better Opportunity,Voluntary,0,Excellent
+EX00123,E00390,2023-05-21,Work-Life Balance,Voluntary,30,Below Average
+EX00124,E00392,2021-10-04,Work-Life Balance,Voluntary,45,Excellent
+EX00125,E00395,2023-11-19,Career Change,Voluntary,0,Good
+EX00126,E00398,2022-05-14,Work-Life Balance,Voluntary,30,Excellent
+EX00127,E00399,2023-05-20,Performance Issues,Involuntary,15,Average
+EX00128,E00406,2025-06-15,Work-Life Balance,Voluntary,45,Average
+EX00129,E00411,2024-11-25,Retirement,Retirement,45,Good
+EX00130,E00417,2022-05-15,Better Opportunity,Voluntary,7,Poor
+EX00131,E00418,2024-12-24,Higher Education,Voluntary,7,Average
+EX00132,E00420,2024-01-29,Higher Education,Voluntary,7,Excellent
+EX00133,E00421,2025-01-07,Relocation,Voluntary,45,Average
+EX00134,E00422,2023-05-12,Performance Issues,Involuntary,15,Average
+EX00135,E00423,2024-02-20,Layoff / Restructuring,Involuntary,0,Poor
+EX00136,E00424,2024-04-23,Relocation,Voluntary,45,Excellent
+EX00137,E00429,2021-10-17,Attendance Issues,Involuntary,15,Good
+EX00138,E00433,2024-12-27,Higher Education,Voluntary,45,Average
+EX00139,E00436,2024-09-23,Higher Compensation,Voluntary,15,Average
+EX00140,E00439,2021-06-09,Higher Education,Voluntary,30,Good
+EX00141,E00448,2023-11-08,Retirement,Retirement,30,Poor
+EX00142,E00449,2025-02-25,Layoff / Restructuring,Involuntary,7,Average
+EX00143,E00450,2023-09-24,Better Opportunity,Voluntary,60,Good
+EX00144,E00457,2024-04-07,Higher Compensation,Voluntary,60,Poor
+EX00145,E00458,2022-03-03,Career Change,Voluntary,0,Below Average
+EX00146,E00461,2024-07-03,Career Change,Voluntary,60,Good
+EX00147,E00462,2023-11-20,Attendance Issues,Involuntary,7,Excellent
+EX00148,E00465,2022-11-26,Better Opportunity,Voluntary,7,Good
+EX00149,E00466,2024-12-20,Higher Education,Voluntary,30,Good
+EX00150,E00467,2022-10-06,Layoff / Restructuring,Involuntary,45,Average
+EX00151,E00471,2025-06-29,Work-Life Balance,Voluntary,15,Good
+EX00152,E00473,2024-08-03,Higher Compensation,Voluntary,15,Good
+EX00153,E00476,2025-05-20,Better Opportunity,Voluntary,0,Good
+EX00154,E00481,2024-05-14,Retirement,Retirement,45,Average
+EX00155,E00484,2023-05-30,Higher Compensation,Voluntary,15,Excellent
+EX00156,E00486,2024-02-18,Relocation,Voluntary,45,Good
+EX00157,E00488,2025-04-02,Better Opportunity,Voluntary,30,Average
+EX00158,E00489,2021-02-19,Higher Compensation,Voluntary,7,Good
+EX00159,E00491,2025-06-02,Policy Violation,Involuntary,60,Excellent
+EX00160,E00492,2025-05-15,Career Change,Voluntary,0,Good
+EX00161,E00494,2023-06-03,Higher Education,Voluntary,60,Excellent
+EX00162,E00495,2022-06-21,Relocation,Voluntary,30,Good
+EX00163,E00496,2024-08-16,Work-Life Balance,Voluntary,60,Excellent
+EX00164,E00506,2024-09-02,Better Opportunity,Voluntary,30,Average
+EX00165,E00508,2024-06-02,Policy Violation,Involuntary,30,Good
+EX00166,E00510,2025-06-18,Higher Education,Voluntary,30,Average
+EX00167,E00512,2022-05-24,Work-Life Balance,Voluntary,15,Excellent
+EX00168,E00514,2024-09-07,Policy Violation,Involuntary,45,Average
+EX00169,E00515,2023-03-04,Higher Compensation,Voluntary,7,Excellent
+EX00170,E00516,2023-12-27,Higher Education,Voluntary,0,Good
+EX00171,E00517,2023-07-17,Work-Life Balance,Voluntary,15,Average
+EX00172,E00519,2024-07-11,Better Opportunity,Voluntary,60,Average
+EX00173,E00523,2024-12-26,Higher Compensation,Voluntary,45,Poor
+EX00174,E00525,2023-09-16,Higher Compensation,Voluntary,45,Poor
+EX00175,E00526,2024-07-21,Higher Education,Voluntary,60,Average
+EX00176,E00530,2025-06-06,Work-Life Balance,Voluntary,45,Average
+EX00177,E00531,2024-12-12,Relocation,Voluntary,0,Good
+EX00178,E00533,2025-06-17,Higher Education,Voluntary,0,Average
+EX00179,E00549,2021-09-13,Higher Education,Voluntary,60,Average
+EX00180,E00551,2025-01-02,Higher Compensation,Voluntary,60,Average
+EX00181,E00553,2024-05-24,Retirement,Retirement,15,Good
+EX00182,E00554,2022-07-17,Performance Issues,Involuntary,60,Good
+EX00183,E00556,2025-03-24,Relocation,Voluntary,45,Average
+EX00184,E00562,2023-02-18,Work-Life Balance,Voluntary,7,Good
+EX00185,E00565,2025-01-02,Work-Life Balance,Voluntary,15,Average
+EX00186,E00567,2022-01-24,Career Change,Voluntary,45,Good
+EX00187,E00569,2023-02-23,Performance Issues,Involuntary,60,Below Average
+EX00188,E00571,2022-10-28,Policy Violation,Involuntary,45,Average
+EX00189,E00573,2022-04-22,Higher Education,Voluntary,0,Average
+EX00190,E00574,2025-05-30,Career Change,Voluntary,15,Average
+EX00191,E00576,2025-02-19,Retirement,Retirement,45,Average
+EX00192,E00579,2024-05-01,Policy Violation,Involuntary,45,Poor
+EX00193,E00580,2025-06-25,Career Change,Voluntary,0,Poor
+EX00194,E00586,2024-03-26,Career Change,Voluntary,7,Excellent
+EX00195,E00588,2024-08-25,Layoff / Restructuring,Involuntary,0,Good
+EX00196,E00589,2024-11-29,Higher Compensation,Voluntary,15,Below Average
+EX00197,E00591,2024-08-25,Work-Life Balance,Voluntary,30,Average
+EX00198,E00595,2024-02-27,Career Change,Voluntary,30,Poor
+EX00199,E00598,2022-07-25,Work-Life Balance,Voluntary,7,Excellent
+EX00200,E00600,2022-07-20,Career Change,Voluntary,30,Average
+EX00201,E00605,2024-09-21,Career Change,Voluntary,60,Poor
+EX00202,E00610,2025-02-05,Higher Education,Voluntary,7,Average
+EX00203,E00611,2024-04-12,Relocation,Voluntary,45,Poor
+EX00204,E00612,2024-11-23,Higher Compensation,Voluntary,60,Average
+EX00205,E00614,2024-12-11,Better Opportunity,Voluntary,0,Excellent
+EX00206,E00622,2025-02-22,Better Opportunity,Voluntary,45,Average
+EX00207,E00623,2023-11-06,Work-Life Balance,Voluntary,0,Excellent
+EX00208,E00630,2022-06-07,Layoff / Restructuring,Involuntary,7,Average
+EX00209,E00633,2025-03-20,Work-Life Balance,Voluntary,15,Good
+EX00210,E00635,2022-10-05,Career Change,Voluntary,30,Excellent
+EX00211,E00637,2025-05-09,Career Change,Voluntary,15,Average
+EX00212,E00638,2025-01-14,Higher Education,Voluntary,15,Average
+EX00213,E00640,2022-11-04,Higher Compensation,Voluntary,45,Average
+EX00214,E00641,2024-04-20,Career Change,Voluntary,45,Good
+EX00215,E00642,2024-02-21,Higher Education,Voluntary,60,Good
+EX00216,E00645,2024-10-11,Attendance Issues,Involuntary,7,Average
+EX00217,E00653,2024-09-24,Better Opportunity,Voluntary,60,Excellent
+EX00218,E00657,2023-07-28,Policy Violation,Involuntary,7,Average
+EX00219,E00661,2025-04-08,Work-Life Balance,Voluntary,60,Good
+EX00220,E00668,2021-12-11,Career Change,Voluntary,30,Average
+EX00221,E00670,2025-03-14,Relocation,Voluntary,15,Good
+EX00222,E00672,2024-09-27,Work-Life Balance,Voluntary,7,Average
+EX00223,E00674,2023-08-24,Relocation,Voluntary,60,Average
+EX00224,E00675,2023-10-04,Policy Violation,Involuntary,7,Poor
+EX00225,E00676,2024-06-24,Higher Compensation,Voluntary,30,Average
+EX00226,E00677,2024-07-12,Layoff / Restructuring,Involuntary,45,Good
+EX00227,E00681,2024-02-16,Performance Issues,Involuntary,15,Average
+EX00228,E00682,2024-02-14,Higher Education,Voluntary,0,Average
+EX00229,E00694,2025-01-20,Higher Compensation,Voluntary,30,Good
+EX00230,E00698,2025-04-19,Career Change,Voluntary,60,Average
+EX00231,E00699,2023-03-26,Higher Education,Voluntary,15,Good
+EX00232,E00705,2025-03-14,Policy Violation,Involuntary,15,Good
+EX00233,E00706,2024-11-10,Better Opportunity,Voluntary,7,Poor
+EX00234,E00709,2025-06-22,Better Opportunity,Voluntary,45,Average
+EX00235,E00712,2023-01-26,Retirement,Retirement,60,Average
+EX00236,E00716,2022-08-09,Higher Education,Voluntary,30,Good
+EX00237,E00721,2024-06-24,Relocation,Voluntary,60,Good
+EX00238,E00722,2025-03-21,Attendance Issues,Involuntary,15,Average
+EX00239,E00724,2023-03-13,Career Change,Voluntary,7,Good
+EX00240,E00725,2024-10-20,Career Change,Voluntary,7,Average
+EX00241,E00728,2024-07-24,Relocation,Voluntary,60,Below Average
+EX00242,E00729,2024-02-27,Career Change,Voluntary,30,Good
+EX00243,E00730,2024-11-24,Work-Life Balance,Voluntary,45,Good
+EX00244,E00734,2024-12-12,Performance Issues,Involuntary,15,Average
+EX00245,E00740,2025-03-23,Higher Education,Voluntary,0,Average
+EX00246,E00742,2025-02-23,Higher Compensation,Voluntary,45,Excellent
+EX00247,E00743,2024-03-22,Higher Education,Voluntary,0,Good
+EX00248,E00744,2024-10-26,Policy Violation,Involuntary,45,Below Average
+EX00249,E00745,2024-12-27,Career Change,Voluntary,60,Poor
+EX00250,E00747,2024-05-17,Better Opportunity,Voluntary,30,Good
+EX00251,E00751,2024-02-29,Attendance Issues,Involuntary,0,Average
+EX00252,E00754,2023-11-05,Attendance Issues,Involuntary,7,Average
+EX00253,E00756,2024-11-19,Work-Life Balance,Voluntary,15,Average
+EX00254,E00761,2022-05-28,Better Opportunity,Voluntary,60,Good
+EX00255,E00762,2024-06-20,Higher Compensation,Voluntary,30,Good
+EX00256,E00764,2025-01-06,Higher Education,Voluntary,60,Below Average
+EX00257,E00770,2024-08-12,Work-Life Balance,Voluntary,60,Average
+EX00258,E00771,2021-04-24,Attendance Issues,Involuntary,45,Average
+EX00259,E00777,2022-08-27,Higher Education,Voluntary,15,Average
+EX00260,E00778,2025-06-11,Higher Compensation,Voluntary,0,Good
+EX00261,E00784,2023-12-08,Work-Life Balance,Voluntary,7,Below Average
+EX00262,E00787,2021-10-16,Career Change,Voluntary,0,Average
+EX00263,E00788,2025-06-19,Better Opportunity,Voluntary,15,Good
+EX00264,E00792,2023-02-04,Relocation,Voluntary,7,Good
+EX00265,E00795,2024-07-21,Better Opportunity,Voluntary,30,Average
+EX00266,E00796,2025-04-11,Policy Violation,Involuntary,30,Good
+EX00267,E00797,2025-06-11,Policy Violation,Involuntary,15,Good
+EX00268,E00801,2025-04-20,Work-Life Balance,Voluntary,15,Poor
+EX00269,E00804,2023-09-07,Higher Compensation,Voluntary,30,Good
+EX00270,E00816,2022-01-25,Layoff / Restructuring,Involuntary,7,Excellent
+EX00271,E00819,2023-01-13,Policy Violation,Involuntary,0,Good
+EX00272,E00820,2023-05-07,Better Opportunity,Voluntary,7,Good
+EX00273,E00821,2024-11-10,Relocation,Voluntary,0,Average
+EX00274,E00823,2023-06-12,Relocation,Voluntary,0,Poor
+EX00275,E00825,2023-06-21,Performance Issues,Involuntary,0,Good
+EX00276,E00829,2025-06-08,Retirement,Retirement,15,Average
+EX00277,E00845,2024-07-31,Relocation,Voluntary,7,Average
+EX00278,E00849,2022-04-11,Policy Violation,Involuntary,7,Good
+EX00279,E00857,2024-03-06,Attendance Issues,Involuntary,60,Good
+EX00280,E00860,2024-11-05,Higher Education,Voluntary,45,Excellent
+EX00281,E00865,2025-06-22,Relocation,Voluntary,60,Average
+EX00282,E00867,2024-03-06,Career Change,Voluntary,15,Good
+EX00283,E00868,2025-06-13,Work-Life Balance,Voluntary,45,Good
+EX00284,E00869,2025-02-15,Policy Violation,Involuntary,30,Good
+EX00285,E00874,2024-08-19,Better Opportunity,Voluntary,45,Average
+EX00286,E00875,2024-08-16,Higher Compensation,Voluntary,15,Good
+EX00287,E00876,2023-08-23,Higher Education,Voluntary,7,Good
+EX00288,E00879,2023-08-05,Attendance Issues,Involuntary,30,Average
+EX00289,E00895,2024-12-30,Higher Education,Voluntary,60,Average
+EX00290,E00896,2025-04-27,Career Change,Voluntary,45,Good
+EX00291,E00901,2025-05-30,Work-Life Balance,Voluntary,60,Good
+EX00292,E00902,2025-03-05,Retirement,Retirement,30,Below Average
+EX00293,E00903,2021-09-11,Work-Life Balance,Voluntary,15,Below Average
+EX00294,E00910,2023-12-08,Better Opportunity,Voluntary,30,Below Average
+EX00295,E00912,2023-08-08,Career Change,Voluntary,0,Average
+EX00296,E00913,2023-07-17,Relocation,Voluntary,60,Excellent
+EX00297,E00915,2025-01-03,Career Change,Voluntary,0,Average
+EX00298,E00916,2023-03-24,Higher Compensation,Voluntary,60,Good
+EX00299,E00920,2023-10-27,Retirement,Retirement,60,Good
+EX00300,E00921,2023-02-21,Policy Violation,Involuntary,0,Below Average
+EX00301,E00926,2025-04-15,Policy Violation,Involuntary,45,Average
+EX00302,E00927,2023-06-17,Better Opportunity,Voluntary,45,Poor
+EX00303,E00933,2025-06-10,Better Opportunity,Voluntary,45,Poor
+EX00304,E00934,2024-06-24,Policy Violation,Involuntary,45,Below Average
+EX00305,E00937,2024-09-27,Relocation,Voluntary,60,Good
+EX00306,E00946,2025-03-10,Performance Issues,Involuntary,7,Below Average
+EX00307,E00947,2021-11-23,Career Change,Voluntary,45,Excellent
+EX00308,E00948,2025-06-28,Better Opportunity,Voluntary,30,Poor
+EX00309,E00950,2023-09-26,Attendance Issues,Involuntary,30,Below Average
+EX00310,E00952,2024-03-16,Higher Education,Voluntary,30,Average
+EX00311,E00959,2024-09-05,Work-Life Balance,Voluntary,0,Average
+EX00312,E00965,2024-02-24,Career Change,Voluntary,60,Good
+EX00313,E00966,2022-02-05,Policy Violation,Involuntary,30,Excellent
+EX00314,E00967,2024-06-04,Better Opportunity,Voluntary,0,Average
+EX00315,E00970,2025-06-09,Retirement,Retirement,0,Good
+EX00316,E00972,2024-10-31,Retirement,Retirement,7,Below Average
+EX00317,E00974,2024-11-27,Career Change,Voluntary,15,Excellent
+EX00318,E00976,2023-11-05,Higher Education,Voluntary,15,Excellent
+EX00319,E00979,2024-06-27,Better Opportunity,Voluntary,30,Poor
+EX00320,E00981,2024-01-23,Relocation,Voluntary,0,Average
+EX00321,E00983,2025-02-12,Layoff / Restructuring,Involuntary,0,Excellent
+EX00322,E00990,2023-06-09,Better Opportunity,Voluntary,30,Excellent
+EX00323,E00991,2024-02-18,Relocation,Voluntary,30,Average
+EX00324,E00992,2025-06-18,Career Change,Voluntary,30,Good
+EX00325,E00993,2024-04-28,Better Opportunity,Voluntary,30,Good
+EX00326,E01000,2025-04-28,Better Opportunity,Voluntary,30,Good
+EX00327,E01001,2023-03-14,Retirement,Retirement,45,Average
+EX00328,E01005,2021-12-27,Policy Violation,Involuntary,7,Below Average
+EX00329,E01012,2024-06-11,Higher Education,Voluntary,0,Good
+EX00330,E01013,2023-11-09,Career Change,Voluntary,0,Good
+EX00331,E01015,2023-03-20,Relocation,Voluntary,15,Average
+EX00332,E01017,2025-02-28,Policy Violation,Involuntary,30,Average
+EX00333,E01018,2023-03-14,Better Opportunity,Voluntary,60,Good
+EX00334,E01022,2023-08-10,Higher Compensation,Voluntary,60,Good
+EX00335,E01023,2025-04-26,Better Opportunity,Voluntary,60,Poor
+EX00336,E01028,2023-09-12,Higher Education,Voluntary,15,Good
+EX00337,E01029,2025-02-16,Career Change,Voluntary,0,Average
+EX00338,E01036,2021-11-29,Work-Life Balance,Voluntary,15,Excellent
+EX00339,E01040,2024-02-10,Work-Life Balance,Voluntary,15,Average
+EX00340,E01043,2024-11-01,Work-Life Balance,Voluntary,0,Average
+EX00341,E01047,2025-03-02,Performance Issues,Involuntary,30,Average
+EX00342,E01048,2023-03-25,Better Opportunity,Voluntary,45,Excellent
+EX00343,E01049,2023-10-01,Retirement,Retirement,45,Good
+EX00344,E01055,2023-11-17,Higher Compensation,Voluntary,45,Average
+EX00345,E01062,2025-05-29,Higher Compensation,Voluntary,30,Excellent
+EX00346,E01064,2024-01-27,Layoff / Restructuring,Involuntary,45,Below Average
+EX00347,E01066,2024-03-31,Policy Violation,Involuntary,7,Poor
+EX00348,E01068,2025-05-20,Career Change,Voluntary,60,Poor
+EX00349,E01077,2024-05-06,Better Opportunity,Voluntary,7,Good
+EX00350,E01085,2023-08-05,Retirement,Retirement,60,Good
+EX00351,E01101,2024-10-22,Better Opportunity,Voluntary,7,Average
+EX00352,E01103,2025-01-01,Career Change,Voluntary,60,Good
+EX00353,E01107,2024-09-04,Higher Education,Voluntary,15,Good
+EX00354,E01110,2020-07-06,Layoff / Restructuring,Involuntary,15,Good
+EX00355,E01113,2023-07-05,Higher Compensation,Voluntary,60,Excellent
+EX00356,E01114,2022-03-06,Higher Compensation,Voluntary,0,Excellent
+EX00357,E01116,2025-06-17,Higher Compensation,Voluntary,15,Good
+EX00358,E01117,2023-02-22,Better Opportunity,Voluntary,60,Average
+EX00359,E01125,2021-06-23,Relocation,Voluntary,30,Average
+EX00360,E01131,2025-06-26,Higher Compensation,Voluntary,7,Good
+EX00361,E01135,2025-04-19,Policy Violation,Involuntary,7,Excellent
+EX00362,E01136,2024-10-18,Better Opportunity,Voluntary,30,Good
+EX00363,E01137,2024-02-13,Career Change,Voluntary,45,Average
+EX00364,E01140,2023-10-15,Policy Violation,Involuntary,7,Average
+EX00365,E01144,2025-04-08,Higher Compensation,Voluntary,30,Excellent
+EX00366,E01145,2023-08-02,Retirement,Retirement,60,Good
+EX00367,E01146,2025-06-19,Relocation,Voluntary,7,Excellent
+EX00368,E01147,2024-08-20,Performance Issues,Involuntary,0,Average
+EX00369,E01150,2023-03-03,Higher Education,Voluntary,7,Good
+EX00370,E01154,2024-09-08,Work-Life Balance,Voluntary,0,Good
+EX00371,E01158,2022-07-05,Better Opportunity,Voluntary,15,Below Average
+EX00372,E01167,2025-02-21,Attendance Issues,Involuntary,60,Good
+EX00373,E01169,2025-05-31,Layoff / Restructuring,Involuntary,7,Average
+EX00374,E01171,2023-06-17,Career Change,Voluntary,30,Average
+EX00375,E01175,2023-11-27,Higher Education,Voluntary,30,Average
+EX00376,E01180,2023-10-31,Work-Life Balance,Voluntary,7,Average
+EX00377,E01185,2024-09-20,Better Opportunity,Voluntary,30,Good
+EX00378,E01189,2021-07-27,Higher Compensation,Voluntary,15,Excellent
+EX00379,E01191,2024-07-05,Retirement,Retirement,15,Average
+EX00380,E01200,2024-02-13,Better Opportunity,Voluntary,7,Average
+EX00381,E01202,2024-06-18,Work-Life Balance,Voluntary,30,Average
+EX00382,E01207,2022-03-12,Relocation,Voluntary,45,Below Average
+EX00383,E01209,2025-01-17,Relocation,Voluntary,7,Good
+EX00384,E01210,2025-06-08,Career Change,Voluntary,0,Good
+EX00385,E01211,2025-02-15,Policy Violation,Involuntary,60,Good
+EX00386,E01213,2024-04-02,Higher Education,Voluntary,15,Below Average
+EX00387,E01214,2025-04-24,Attendance Issues,Involuntary,45,Average
+EX00388,E01216,2025-04-17,Relocation,Voluntary,7,Poor
+EX00389,E01217,2024-09-16,Attendance Issues,Involuntary,15,Average
+EX00390,E01222,2024-12-26,Layoff / Restructuring,Involuntary,60,Good
+EX00391,E01223,2024-06-05,Work-Life Balance,Voluntary,7,Average
+EX00392,E01226,2024-08-07,Policy Violation,Involuntary,45,Average
+EX00393,E01228,2024-04-13,Better Opportunity,Voluntary,15,Good
+EX00394,E01229,2023-01-21,Higher Compensation,Voluntary,15,Average
+EX00395,E01235,2024-07-17,Layoff / Restructuring,Involuntary,7,Below Average
+EX00396,E01236,2024-11-09,Policy Violation,Involuntary,15,Average
+EX00397,E01237,2025-02-02,Performance Issues,Involuntary,45,Average
+EX00398,E01245,2022-02-02,Higher Compensation,Voluntary,60,Average
+EX00399,E01246,2024-01-01,Higher Education,Voluntary,0,Good
+EX00400,E01250,2022-04-07,Career Change,Voluntary,0,Good
+EX00401,E01251,2025-03-04,Better Opportunity,Voluntary,7,Below Average
+EX00402,E01252,2024-10-27,Higher Compensation,Voluntary,7,Average
+EX00403,E01255,2023-03-20,Better Opportunity,Voluntary,15,Excellent
+EX00404,E01257,2024-05-17,Work-Life Balance,Voluntary,0,Poor
+EX00405,E01269,2025-04-25,Better Opportunity,Voluntary,60,Good
+EX00406,E01277,2024-05-24,Work-Life Balance,Voluntary,0,Average
+EX00407,E01281,2025-02-02,Higher Compensation,Voluntary,45,Average
+EX00408,E01282,2022-11-24,Higher Education,Voluntary,60,Average
+EX00409,E01283,2021-05-31,Work-Life Balance,Voluntary,30,Average
+EX00410,E01284,2023-11-04,Higher Education,Voluntary,45,Excellent
+EX00411,E01285,2024-04-12,Layoff / Restructuring,Involuntary,0,Below Average
+EX00412,E01287,2024-07-25,Work-Life Balance,Voluntary,45,Average
+EX00413,E01288,2024-11-24,Attendance Issues,Involuntary,15,Good
+EX00414,E01289,2025-02-10,Work-Life Balance,Voluntary,30,Good
+EX00415,E01291,2025-02-09,Higher Compensation,Voluntary,15,Average
+EX00416,E01294,2021-12-23,Higher Education,Voluntary,7,Below Average
+EX00417,E01295,2023-11-07,Higher Education,Voluntary,60,Poor
+EX00418,E01298,2025-03-18,Attendance Issues,Involuntary,7,Good
+EX00419,E01300,2022-10-05,Better Opportunity,Voluntary,30,Excellent
+EX00420,E01306,2023-08-14,Higher Compensation,Voluntary,7,Good
+EX00421,E01308,2024-04-06,Higher Education,Voluntary,30,Good
+EX00422,E01309,2022-06-12,Work-Life Balance,Voluntary,15,Good
+EX00423,E01311,2024-02-01,Work-Life Balance,Voluntary,45,Good
+EX00424,E01313,2023-12-28,Career Change,Voluntary,0,Good
+EX00425,E01319,2023-12-24,Policy Violation,Involuntary,45,Poor
+EX00426,E01321,2025-06-12,Better Opportunity,Voluntary,60,Poor
+EX00427,E01324,2024-08-12,Work-Life Balance,Voluntary,15,Average
+EX00428,E01325,2021-06-15,Policy Violation,Involuntary,45,Good
+EX00429,E01326,2024-04-14,Better Opportunity,Voluntary,0,Good
+EX00430,E01331,2025-05-07,Career Change,Voluntary,45,Average
+EX00431,E01332,2025-05-29,Relocation,Voluntary,15,Average
+EX00432,E01338,2024-03-02,Higher Compensation,Voluntary,0,Average
+EX00433,E01339,2023-01-20,Relocation,Voluntary,7,Poor
+EX00434,E01344,2023-01-26,Attendance Issues,Involuntary,0,Good
+EX00435,E01346,2025-05-23,Better Opportunity,Voluntary,0,Poor
+EX00436,E01347,2023-03-12,Higher Education,Voluntary,15,Excellent
+EX00437,E01348,2025-03-21,Higher Education,Voluntary,15,Good
+EX00438,E01349,2023-09-12,Relocation,Voluntary,60,Average
+EX00439,E01357,2020-09-23,Career Change,Voluntary,45,Poor
+EX00440,E01363,2024-09-18,Career Change,Voluntary,30,Good
+EX00441,E01367,2024-04-28,Better Opportunity,Voluntary,45,Below Average
+EX00442,E01368,2024-09-27,Layoff / Restructuring,Involuntary,15,Good
+EX00443,E01369,2024-01-21,Higher Compensation,Voluntary,0,Good
+EX00444,E01370,2022-07-26,Relocation,Voluntary,7,Good
+EX00445,E01375,2023-01-17,Relocation,Voluntary,0,Good
+EX00446,E01378,2025-01-04,Layoff / Restructuring,Involuntary,15,Good
+EX00447,E01380,2024-12-18,Attendance Issues,Involuntary,45,Good
+EX00448,E01381,2023-12-29,Higher Education,Voluntary,30,Good
+EX00449,E01382,2023-05-26,Retirement,Retirement,45,Average
+EX00450,E01383,2024-06-09,Better Opportunity,Voluntary,45,Average
+EX00451,E01385,2024-12-10,Policy Violation,Involuntary,15,Good
+EX00452,E01396,2024-07-27,Higher Compensation,Voluntary,30,Average
+EX00453,E01400,2023-09-03,Performance Issues,Involuntary,7,Average
+EX00454,E01402,2022-09-19,Career Change,Voluntary,45,Average
+EX00455,E01403,2022-11-18,Career Change,Voluntary,45,Good
+EX00456,E01410,2024-10-16,Work-Life Balance,Voluntary,7,Average
+EX00457,E01414,2021-09-25,Better Opportunity,Voluntary,45,Good
+EX00458,E01415,2023-08-18,Policy Violation,Involuntary,60,Below Average
+EX00459,E01417,2025-02-02,Career Change,Voluntary,0,Excellent
+EX00460,E01421,2024-08-31,Layoff / Restructuring,Involuntary,15,Good
+EX00461,E01423,2025-04-13,Career Change,Voluntary,30,Average
+EX00462,E01425,2023-02-26,Performance Issues,Involuntary,15,Average
+EX00463,E01426,2022-10-21,Better Opportunity,Voluntary,0,Below Average
+EX00464,E01427,2025-01-10,Relocation,Voluntary,30,Below Average
+EX00465,E01429,2022-08-02,Relocation,Voluntary,45,Good
+EX00466,E01434,2022-08-06,Retirement,Retirement,0,Good
+EX00467,E01435,2023-02-24,Work-Life Balance,Voluntary,30,Average
+EX00468,E01440,2021-09-18,Higher Compensation,Voluntary,45,Good
+EX00469,E01445,2024-11-30,Better Opportunity,Voluntary,30,Good
+EX00470,E01446,2022-10-04,Career Change,Voluntary,15,Average
+EX00471,E01456,2024-07-17,Higher Education,Voluntary,7,Below Average
+EX00472,E01457,2023-08-15,Higher Compensation,Voluntary,7,Excellent
+EX00473,E01463,2024-08-25,Higher Compensation,Voluntary,60,Average
+EX00474,E01466,2025-06-23,Better Opportunity,Voluntary,15,Good
+EX00475,E01469,2021-12-02,Relocation,Voluntary,0,Average
+EX00476,E01473,2022-03-17,Better Opportunity,Voluntary,60,Below Average
+EX00477,E01480,2024-07-28,Higher Education,Voluntary,45,Below Average
+EX00478,E01482,2024-07-23,Better Opportunity,Voluntary,0,Excellent
+EX00479,E01487,2024-06-01,Work-Life Balance,Voluntary,30,Good
+EX00480,E01492,2023-08-07,Layoff / Restructuring,Involuntary,30,Good
+EX00481,E01493,2023-05-05,Work-Life Balance,Voluntary,45,Below Average
+EX00482,E01494,2023-11-04,Career Change,Voluntary,45,Good
+EX00483,E01495,2023-11-11,Higher Compensation,Voluntary,60,Average
+EX00484,E01498,2024-07-28,Better Opportunity,Voluntary,7,Good
+EX00485,E01500,2021-12-14,Better Opportunity,Voluntary,30,Good
+EX00486,E01501,2022-10-04,Policy Violation,Involuntary,30,Excellent
+EX00487,E01505,2023-10-20,Career Change,Voluntary,15,Good
+EX00488,E01507,2021-11-28,Higher Compensation,Voluntary,0,Good
+EX00489,E01509,2022-04-30,Higher Education,Voluntary,15,Good
+EX00490,E01510,2024-05-15,Better Opportunity,Voluntary,7,Poor
+EX00491,E01513,2024-05-22,Retirement,Retirement,30,Good
+EX00492,E01515,2025-01-09,Work-Life Balance,Voluntary,15,Excellent
+EX00493,E01517,2024-05-01,Higher Education,Voluntary,30,Below Average
+EX00494,E01522,2024-09-22,Higher Compensation,Voluntary,60,Average
+EX00495,E01523,2024-05-07,Higher Education,Voluntary,60,Average
+EX00496,E01526,2024-10-17,Higher Compensation,Voluntary,60,Average
+EX00497,E01529,2024-03-09,Policy Violation,Involuntary,45,Average
+EX00498,E01531,2024-03-08,Higher Education,Voluntary,45,Average
+EX00499,E01532,2024-06-23,Attendance Issues,Involuntary,15,Below Average
+EX00500,E01535,2024-05-27,Retirement,Retirement,0,Good
+EX00501,E01539,2025-04-12,Relocation,Voluntary,45,Average
+EX00502,E01541,2025-05-22,Relocation,Voluntary,60,Poor
+EX00503,E01542,2024-05-16,Better Opportunity,Voluntary,15,Good
+EX00504,E01543,2025-01-28,Work-Life Balance,Voluntary,0,Average
+EX00505,E01546,2025-01-18,Higher Compensation,Voluntary,7,Average
+EX00506,E01547,2024-05-18,Attendance Issues,Involuntary,7,Average
+EX00507,E01564,2024-03-19,Higher Compensation,Voluntary,45,Good
+EX00508,E01570,2024-09-15,Career Change,Voluntary,60,Good
+EX00509,E01571,2025-05-30,Work-Life Balance,Voluntary,60,Good
+EX00510,E01573,2024-09-28,Retirement,Retirement,45,Poor
+EX00511,E01579,2025-06-19,Performance Issues,Involuntary,60,Average
+EX00512,E01581,2023-11-02,Better Opportunity,Voluntary,0,Excellent
+EX00513,E01582,2025-01-07,Performance Issues,Involuntary,7,Good
+EX00514,E01584,2023-03-22,Higher Education,Voluntary,7,Good
+EX00515,E01597,2025-04-25,Career Change,Voluntary,60,Average
+EX00516,E01598,2022-03-11,Career Change,Voluntary,15,Average
+EX00517,E01603,2024-05-24,Work-Life Balance,Voluntary,30,Excellent
+EX00518,E01610,2025-03-01,Layoff / Restructuring,Involuntary,45,Average
+EX00519,E01611,2023-11-18,Higher Education,Voluntary,60,Below Average
+EX00520,E01622,2022-03-18,Attendance Issues,Involuntary,45,Average
+EX00521,E01628,2024-08-09,Policy Violation,Involuntary,7,Average
+EX00522,E01629,2024-09-04,Layoff / Restructuring,Involuntary,7,Excellent
+EX00523,E01644,2022-09-26,Career Change,Voluntary,30,Average
+EX00524,E01646,2023-06-17,Work-Life Balance,Voluntary,7,Average
+EX00525,E01647,2025-06-07,Better Opportunity,Voluntary,60,Average
+EX00526,E01650,2022-05-13,Career Change,Voluntary,45,Good
+EX00527,E01653,2025-01-16,Retirement,Retirement,60,Excellent
+EX00528,E01662,2025-04-12,Higher Education,Voluntary,0,Good
+EX00529,E01663,2025-06-29,Work-Life Balance,Voluntary,15,Excellent
+EX00530,E01667,2024-08-16,Performance Issues,Involuntary,7,Average
+EX00531,E01673,2024-03-24,Performance Issues,Involuntary,0,Average
+EX00532,E01676,2025-06-28,Higher Compensation,Voluntary,15,Average
+EX00533,E01682,2023-04-01,Work-Life Balance,Voluntary,0,Excellent
+EX00534,E01685,2022-09-23,Career Change,Voluntary,60,Excellent
+EX00535,E01689,2024-09-09,Higher Compensation,Voluntary,0,Below Average
+EX00536,E01690,2024-12-29,Better Opportunity,Voluntary,30,Good
+EX00537,E01693,2023-09-29,Better Opportunity,Voluntary,60,Good
+EX00538,E01694,2024-05-03,Career Change,Voluntary,60,Excellent
+EX00539,E01698,2025-03-21,Relocation,Voluntary,30,Average
+EX00540,E01701,2025-04-11,Career Change,Voluntary,60,Good
+EX00541,E01707,2024-10-25,Better Opportunity,Voluntary,45,Excellent
+EX00542,E01711,2025-02-10,Policy Violation,Involuntary,60,Average
+EX00543,E01712,2022-02-03,Work-Life Balance,Voluntary,60,Average
+EX00544,E01713,2025-03-04,Career Change,Voluntary,30,Excellent
+EX00545,E01716,2025-03-18,Layoff / Restructuring,Involuntary,7,Below Average
+EX00546,E01719,2025-05-29,Work-Life Balance,Voluntary,30,Good
+EX00547,E01724,2025-02-16,Policy Violation,Involuntary,7,Good
+EX00548,E01725,2022-02-02,Relocation,Voluntary,15,Average
+EX00549,E01727,2023-03-11,Policy Violation,Involuntary,0,Below Average
+EX00550,E01731,2022-07-28,Higher Compensation,Voluntary,45,Good
+EX00551,E01733,2025-01-19,Better Opportunity,Voluntary,30,Excellent
+EX00552,E01736,2024-05-22,Relocation,Voluntary,60,Average
+EX00553,E01738,2024-05-29,Better Opportunity,Voluntary,0,Excellent
+EX00554,E01741,2024-04-10,Higher Education,Voluntary,7,Average
+EX00555,E01744,2022-06-10,Layoff / Restructuring,Involuntary,45,Good
+EX00556,E01746,2024-10-08,Better Opportunity,Voluntary,15,Below Average
+EX00557,E01748,2024-08-27,Career Change,Voluntary,45,Average
+EX00558,E01756,2023-08-25,Career Change,Voluntary,30,Good
+EX00559,E01758,2025-06-05,Relocation,Voluntary,45,Good
+EX00560,E01761,2025-03-16,Higher Compensation,Voluntary,60,Excellent
+EX00561,E01763,2024-02-28,Better Opportunity,Voluntary,0,Average
+EX00562,E01765,2022-04-22,Layoff / Restructuring,Involuntary,45,Good
+EX00563,E01766,2024-07-29,Work-Life Balance,Voluntary,30,Excellent
+EX00564,E01774,2023-11-12,Work-Life Balance,Voluntary,60,Excellent
+EX00565,E01776,2024-06-16,Higher Education,Voluntary,45,Below Average
+EX00566,E01780,2023-07-27,Better Opportunity,Voluntary,45,Average
+EX00567,E01789,2022-07-13,Layoff / Restructuring,Involuntary,7,Good
+EX00568,E01790,2023-04-30,Better Opportunity,Voluntary,15,Poor
+EX00569,E01794,2023-03-24,Higher Education,Voluntary,30,Good
+EX00570,E01795,2024-02-18,Career Change,Voluntary,30,Average
+EX00571,E01797,2023-10-05,Work-Life Balance,Voluntary,15,Average
+EX00572,E01801,2022-06-08,Performance Issues,Involuntary,7,Average
+EX00573,E01802,2023-07-10,Higher Education,Voluntary,15,Average
+EX00574,E01806,2024-09-18,Work-Life Balance,Voluntary,45,Good
+EX00575,E01807,2025-04-21,Career Change,Voluntary,7,Average
+EX00576,E01810,2022-10-19,Relocation,Voluntary,7,Poor
+EX00577,E01814,2025-02-07,Retirement,Retirement,30,Average
+EX00578,E01819,2024-04-08,Work-Life Balance,Voluntary,15,Good
+EX00579,E01821,2025-04-07,Work-Life Balance,Voluntary,30,Average
+EX00580,E01822,2024-12-19,Higher Compensation,Voluntary,45,Excellent
+EX00581,E01828,2023-07-24,Career Change,Voluntary,15,Below Average
+EX00582,E01829,2025-06-11,Better Opportunity,Voluntary,45,Below Average
+EX00583,E01831,2024-11-22,Higher Education,Voluntary,60,Good
+EX00584,E01837,2023-01-13,Retirement,Retirement,0,Poor
+EX00585,E01840,2025-02-03,Work-Life Balance,Voluntary,45,Below Average
+EX00586,E01846,2025-04-13,Higher Education,Voluntary,45,Good
+EX00587,E01850,2025-01-18,Higher Education,Voluntary,0,Average
+EX00588,E01852,2024-07-18,Performance Issues,Involuntary,15,Average
+EX00589,E01855,2025-05-17,Performance Issues,Involuntary,7,Excellent
+EX00590,E01857,2024-11-01,Higher Education,Voluntary,45,Good
+EX00591,E01860,2025-06-11,Relocation,Voluntary,60,Average
+EX00592,E01867,2024-01-26,Relocation,Voluntary,0,Average
+EX00593,E01868,2024-02-16,Better Opportunity,Voluntary,45,Good
+EX00594,E01870,2023-08-05,Attendance Issues,Involuntary,60,Average
+EX00595,E01875,2025-03-25,Policy Violation,Involuntary,60,Good
+EX00596,E01876,2024-07-10,Higher Education,Voluntary,15,Average
+EX00597,E01879,2025-02-02,Relocation,Voluntary,60,Good
+EX00598,E01881,2025-06-27,Better Opportunity,Voluntary,30,Good
+EX00599,E01890,2024-02-25,Retirement,Retirement,60,Good
+EX00600,E01894,2024-01-02,Career Change,Voluntary,15,Below Average
+EX00601,E01898,2025-01-05,Higher Compensation,Voluntary,7,Average
+EX00602,E01899,2024-11-18,Higher Compensation,Voluntary,60,Below Average
+EX00603,E01902,2021-07-11,Relocation,Voluntary,60,Good
+EX00604,E01903,2024-03-25,Career Change,Voluntary,45,Good
+EX00605,E01909,2022-05-24,Higher Education,Voluntary,15,Average
+EX00606,E01910,2025-05-16,Career Change,Voluntary,30,Good
+EX00607,E01916,2024-02-19,Higher Education,Voluntary,45,Excellent
+EX00608,E01918,2023-03-24,Career Change,Voluntary,60,Average
+EX00609,E01927,2023-03-27,Higher Education,Voluntary,15,Below Average
+EX00610,E01928,2021-03-12,Attendance Issues,Involuntary,30,Excellent
+EX00611,E01930,2023-07-15,Layoff / Restructuring,Involuntary,15,Good
+EX00612,E01938,2025-03-22,Better Opportunity,Voluntary,7,Average
+EX00613,E01940,2025-03-10,Retirement,Retirement,15,Below Average
+EX00614,E01945,2024-05-14,Higher Education,Voluntary,0,Excellent
+EX00615,E01946,2024-09-24,Career Change,Voluntary,45,Good
+EX00616,E01947,2025-01-01,Performance Issues,Involuntary,7,Below Average
+EX00617,E01955,2025-01-28,Retirement,Retirement,0,Average
+EX00618,E01961,2024-12-13,Higher Compensation,Voluntary,30,Good
+EX00619,E01962,2022-02-06,Relocation,Voluntary,15,Below Average
+EX00620,E01963,2025-06-05,Work-Life Balance,Voluntary,30,Below Average
+EX00621,E01967,2022-01-12,Performance Issues,Involuntary,30,Excellent
+EX00622,E01969,2024-03-27,Career Change,Voluntary,60,Excellent
+EX00623,E01975,2025-05-16,Career Change,Voluntary,7,Poor
+EX00624,E01980,2024-09-30,Higher Education,Voluntary,15,Average
+EX00625,E01981,2023-07-16,Work-Life Balance,Voluntary,15,Good
+EX00626,E01982,2022-02-11,Performance Issues,Involuntary,0,Average
+EX00627,E01985,2024-12-12,Career Change,Voluntary,15,Average
+EX00628,E01992,2025-06-29,Work-Life Balance,Voluntary,15,Good
+EX00629,E01995,2023-11-30,Attendance Issues,Involuntary,45,Good
+EX00630,E01998,2024-08-04,Better Opportunity,Voluntary,45,Below Average
+EX00631,E02001,2024-11-08,Career Change,Voluntary,60,Average
+EX00632,E02003,2024-08-16,Relocation,Voluntary,0,Excellent
+EX00633,E02006,2024-09-29,Work-Life Balance,Voluntary,60,Average
+EX00634,E02014,2023-02-22,Policy Violation,Involuntary,60,Poor
+EX00635,E02019,2025-06-05,Career Change,Voluntary,30,Average
+EX00636,E02022,2023-12-16,Work-Life Balance,Voluntary,7,Average
+EX00637,E02024,2024-05-03,Higher Compensation,Voluntary,60,Below Average
+EX00638,E02027,2023-07-28,Retirement,Retirement,0,Good
+EX00639,E02031,2022-09-29,Better Opportunity,Voluntary,30,Below Average
+EX00640,E02033,2024-09-30,Attendance Issues,Involuntary,30,Poor
+EX00641,E02034,2023-01-13,Work-Life Balance,Voluntary,45,Below Average
+EX00642,E02036,2022-04-29,Policy Violation,Involuntary,45,Excellent
+EX00643,E02038,2023-08-14,Performance Issues,Involuntary,45,Average
+EX00644,E02041,2024-11-26,Better Opportunity,Voluntary,30,Average
+EX00645,E02042,2025-03-14,Work-Life Balance,Voluntary,0,Good
+EX00646,E02045,2022-04-28,Work-Life Balance,Voluntary,7,Average
+EX00647,E02046,2025-02-15,Career Change,Voluntary,30,Average
+EX00648,E02048,2025-02-07,Layoff / Restructuring,Involuntary,60,Excellent
+EX00649,E02050,2024-02-01,Better Opportunity,Voluntary,30,Good
+EX00650,E02052,2023-09-23,Relocation,Voluntary,30,Average
+EX00651,E02053,2024-10-14,Career Change,Voluntary,7,Excellent
+EX00652,E02056,2024-04-18,Career Change,Voluntary,7,Good
+EX00653,E02059,2025-01-13,Career Change,Voluntary,7,Average
+EX00654,E02062,2023-08-18,Higher Education,Voluntary,0,Below Average
+EX00655,E02063,2025-06-29,Relocation,Voluntary,15,Poor
+EX00656,E02065,2024-12-19,Policy Violation,Involuntary,45,Average
+EX00657,E02067,2022-09-28,Retirement,Retirement,45,Poor
+EX00658,E02068,2023-09-03,Work-Life Balance,Voluntary,15,Good
+EX00659,E02072,2025-06-10,Relocation,Voluntary,15,Excellent
+EX00660,E02075,2023-08-17,Work-Life Balance,Voluntary,15,Excellent
+EX00661,E02076,2024-04-05,Relocation,Voluntary,0,Poor
+EX00662,E02077,2024-09-13,Higher Education,Voluntary,60,Below Average
+EX00663,E02078,2023-10-08,Higher Education,Voluntary,30,Good
+EX00664,E02082,2025-06-02,Better Opportunity,Voluntary,30,Average
+EX00665,E02083,2022-02-27,Higher Compensation,Voluntary,7,Average
+EX00666,E02085,2025-01-30,Performance Issues,Involuntary,7,Average
+EX00667,E02086,2025-06-20,Performance Issues,Involuntary,15,Good
+EX00668,E02087,2024-07-19,Performance Issues,Involuntary,15,Good
+EX00669,E02091,2025-03-04,Attendance Issues,Involuntary,30,Average
+EX00670,E02092,2024-12-15,Relocation,Voluntary,60,Average
+EX00671,E02093,2023-11-22,Better Opportunity,Voluntary,15,Good
+EX00672,E02094,2024-05-01,Relocation,Voluntary,0,Good
+EX00673,E02095,2025-06-11,Work-Life Balance,Voluntary,7,Average
+EX00674,E02098,2022-04-08,Retirement,Retirement,15,Good
+EX00675,E02102,2024-09-14,Higher Compensation,Voluntary,30,Good
+EX00676,E02104,2025-04-30,Career Change,Voluntary,0,Average
+EX00677,E02114,2024-10-25,Layoff / Restructuring,Involuntary,45,Good
+EX00678,E02115,2024-12-22,Better Opportunity,Voluntary,60,Good
+EX00679,E02116,2024-04-08,Higher Compensation,Voluntary,7,Good
+EX00680,E02120,2023-01-23,Career Change,Voluntary,7,Below Average
+EX00681,E02122,2023-03-27,Higher Compensation,Voluntary,0,Average
+EX00682,E02123,2025-02-28,Work-Life Balance,Voluntary,0,Excellent
+EX00683,E02124,2025-05-25,Layoff / Restructuring,Involuntary,30,Good
+EX00684,E02126,2025-05-27,Policy Violation,Involuntary,60,Poor
+EX00685,E02128,2024-03-22,Higher Compensation,Voluntary,60,Good
+EX00686,E02133,2024-10-17,Career Change,Voluntary,45,Average
+EX00687,E02134,2021-12-02,Higher Education,Voluntary,30,Below Average
+EX00688,E02138,2022-02-17,Policy Violation,Involuntary,15,Average
+EX00689,E02142,2024-01-22,Attendance Issues,Involuntary,30,Average
+EX00690,E02147,2022-08-03,Higher Compensation,Voluntary,45,Good
+EX00691,E02149,2025-06-16,Layoff / Restructuring,Involuntary,30,Average
+EX00692,E02151,2024-03-29,Layoff / Restructuring,Involuntary,30,Excellent
+EX00693,E02159,2023-12-02,Higher Compensation,Voluntary,60,Average
+EX00694,E02160,2022-06-25,Performance Issues,Involuntary,0,Good
+EX00695,E02165,2023-09-15,Relocation,Voluntary,60,Average
+EX00696,E02169,2024-04-08,Career Change,Voluntary,30,Average
+EX00697,E02172,2025-05-02,Work-Life Balance,Voluntary,30,Average
+EX00698,E02174,2025-05-17,Higher Education,Voluntary,30,Poor
+EX00699,E02176,2020-11-05,Better Opportunity,Voluntary,30,Average
+EX00700,E02185,2021-07-11,Work-Life Balance,Voluntary,45,Below Average
+EX00701,E02190,2024-06-22,Higher Compensation,Voluntary,45,Good
+EX00702,E02193,2023-01-12,Higher Education,Voluntary,45,Good
+EX00703,E02201,2025-01-23,Relocation,Voluntary,0,Average
+EX00704,E02202,2024-06-18,Higher Education,Voluntary,7,Below Average
+EX00705,E02205,2024-12-28,Layoff / Restructuring,Involuntary,45,Average
+EX00706,E02206,2024-10-23,Career Change,Voluntary,15,Average
+EX00707,E02212,2021-10-12,Relocation,Voluntary,0,Good
+EX00708,E02215,2023-06-24,Work-Life Balance,Voluntary,60,Good
+EX00709,E02220,2025-04-02,Higher Education,Voluntary,30,Poor
+EX00710,E02221,2021-03-26,Higher Education,Voluntary,60,Good
+EX00711,E02223,2021-11-28,Policy Violation,Involuntary,30,Good
+EX00712,E02224,2022-08-14,Higher Education,Voluntary,45,Average
+EX00713,E02226,2024-09-08,Relocation,Voluntary,0,Good
+EX00714,E02228,2024-05-18,Retirement,Retirement,60,Good
+EX00715,E02229,2025-01-02,Higher Education,Voluntary,30,Good
+EX00716,E02231,2023-11-28,Better Opportunity,Voluntary,7,Below Average
+EX00717,E02232,2024-10-22,Higher Compensation,Voluntary,15,Below Average
+EX00718,E02235,2024-03-25,Layoff / Restructuring,Involuntary,0,Good
+EX00719,E02236,2024-01-24,Policy Violation,Involuntary,7,Good
+EX00720,E02240,2024-10-05,Performance Issues,Involuntary,30,Excellent
+EX00721,E02242,2023-01-26,Relocation,Voluntary,15,Average
+EX00722,E02244,2024-12-22,Career Change,Voluntary,30,Average
+EX00723,E02246,2023-12-13,Higher Compensation,Voluntary,15,Below Average
+EX00724,E02251,2025-06-24,Retirement,Retirement,7,Good
+EX00725,E02252,2024-11-08,Better Opportunity,Voluntary,60,Average
+EX00726,E02253,2023-08-28,Better Opportunity,Voluntary,30,Average
+EX00727,E02255,2022-08-27,Higher Compensation,Voluntary,7,Average
+EX00728,E02260,2023-09-19,Higher Education,Voluntary,60,Good
+EX00729,E02267,2024-10-02,Work-Life Balance,Voluntary,60,Poor
+EX00730,E02276,2022-09-14,Higher Education,Voluntary,15,Good
+EX00731,E02277,2021-09-26,Higher Compensation,Voluntary,0,Good
+EX00732,E02283,2024-08-11,Layoff / Restructuring,Involuntary,0,Poor
+EX00733,E02287,2025-06-11,Work-Life Balance,Voluntary,15,Good
+EX00734,E02288,2023-06-20,Higher Education,Voluntary,30,Good
+EX00735,E02289,2024-09-18,Higher Compensation,Voluntary,7,Below Average
+EX00736,E02291,2024-11-29,Performance Issues,Involuntary,30,Average
+EX00737,E02297,2024-06-11,Higher Education,Voluntary,45,Average
+EX00738,E02298,2023-11-18,Performance Issues,Involuntary,60,Good
+EX00739,E02299,2024-10-31,Higher Education,Voluntary,30,Below Average
+EX00740,E02301,2023-12-29,Higher Compensation,Voluntary,30,Good
+EX00741,E02304,2023-04-01,Higher Education,Voluntary,0,Good
+EX00742,E02307,2024-07-29,Higher Education,Voluntary,30,Below Average
+EX00743,E02308,2025-01-05,Career Change,Voluntary,30,Good
+EX00744,E02312,2023-06-16,Better Opportunity,Voluntary,0,Poor
+EX00745,E02313,2021-08-24,Retirement,Retirement,7,Good
+EX00746,E02318,2023-09-23,Retirement,Retirement,15,Excellent
+EX00747,E02321,2025-01-24,Higher Education,Voluntary,15,Below Average
+EX00748,E02333,2025-06-21,Better Opportunity,Voluntary,45,Good
+EX00749,E02334,2025-03-23,Retirement,Retirement,30,Good
+EX00750,E02337,2024-08-27,Policy Violation,Involuntary,30,Good
+EX00751,E02345,2025-04-08,Layoff / Restructuring,Involuntary,15,Good
+EX00752,E02352,2023-02-08,Career Change,Voluntary,45,Poor
+EX00753,E02353,2024-03-01,Attendance Issues,Involuntary,7,Poor
+EX00754,E02356,2022-11-23,Performance Issues,Involuntary,30,Average
+EX00755,E02360,2024-08-06,Retirement,Retirement,15,Good
+EX00756,E02368,2025-06-22,Layoff / Restructuring,Involuntary,30,Average
+EX00757,E02370,2021-08-06,Higher Education,Voluntary,7,Excellent
+EX00758,E02371,2022-01-01,Better Opportunity,Voluntary,45,Good
+EX00759,E02373,2025-04-01,Relocation,Voluntary,0,Average
+EX00760,E02377,2024-01-27,Layoff / Restructuring,Involuntary,30,Below Average
+EX00761,E02385,2023-08-12,Career Change,Voluntary,30,Excellent
+EX00762,E02392,2021-10-21,Career Change,Voluntary,60,Below Average
+EX00763,E02398,2025-05-27,Layoff / Restructuring,Involuntary,30,Below Average
+EX00764,E02400,2024-10-28,Policy Violation,Involuntary,7,Good
+EX00765,E02403,2024-12-17,Career Change,Voluntary,7,Average
+EX00766,E02406,2023-07-18,Performance Issues,Involuntary,0,Average
+EX00767,E02410,2024-01-20,Better Opportunity,Voluntary,45,Poor
+EX00768,E02412,2024-07-30,Higher Compensation,Voluntary,60,Good
+EX00769,E02413,2021-03-01,Performance Issues,Involuntary,45,Good
+EX00770,E02428,2025-01-24,Work-Life Balance,Voluntary,15,Average
+EX00771,E02429,2024-03-07,Attendance Issues,Involuntary,7,Good
+EX00772,E02432,2024-03-14,Retirement,Retirement,60,Good
+EX00773,E02439,2025-05-28,Work-Life Balance,Voluntary,45,Average
+EX00774,E02441,2025-06-12,Higher Compensation,Voluntary,7,Good
+EX00775,E02442,2022-12-30,Relocation,Voluntary,0,Excellent
+EX00776,E02447,2024-07-01,Higher Compensation,Voluntary,7,Good
+EX00777,E02451,2025-04-01,Layoff / Restructuring,Involuntary,60,Poor
+EX00778,E02452,2025-03-10,Work-Life Balance,Voluntary,45,Good
+EX00779,E02453,2024-08-16,Relocation,Voluntary,15,Average
+EX00780,E02454,2024-12-10,Relocation,Voluntary,15,Average
+EX00781,E02456,2024-11-21,Better Opportunity,Voluntary,7,Average
+EX00782,E02458,2024-08-30,Better Opportunity,Voluntary,7,Below Average
+EX00783,E02459,2024-03-09,Relocation,Voluntary,0,Below Average
+EX00784,E02460,2025-06-17,Career Change,Voluntary,30,Average
+EX00785,E02462,2025-03-30,Retirement,Retirement,7,Average
+EX00786,E02466,2025-05-16,Better Opportunity,Voluntary,60,Good
+EX00787,E02471,2025-01-17,Career Change,Voluntary,30,Good
+EX00788,E02474,2021-04-03,Work-Life Balance,Voluntary,15,Good
+EX00789,E02475,2021-08-24,Work-Life Balance,Voluntary,7,Average
+EX00790,E02476,2025-01-05,Attendance Issues,Involuntary,7,Good
+EX00791,E02482,2024-02-18,Higher Education,Voluntary,15,Good
+EX00792,E02484,2024-08-18,Career Change,Voluntary,15,Good
+EX00793,E02488,2024-01-30,Higher Education,Voluntary,45,Good
+EX00794,E02491,2024-03-03,Career Change,Voluntary,7,Average
+EX00795,E02492,2021-09-10,Work-Life Balance,Voluntary,0,Average
+EX00796,E02498,2024-02-28,Better Opportunity,Voluntary,0,Good
+EX00797,E02500,2023-07-05,Relocation,Voluntary,60,Average
+EX00798,E02502,2021-11-12,Policy Violation,Involuntary,30,Average
+EX00799,E02503,2025-06-18,Career Change,Voluntary,45,Good
+EX00800,E02504,2024-11-24,Higher Education,Voluntary,0,Excellent
+EX00801,E02506,2024-10-24,Performance Issues,Involuntary,60,Below Average
+EX00802,E02508,2023-08-11,Relocation,Voluntary,30,Average
+EX00803,E02509,2021-09-25,Higher Compensation,Voluntary,0,Average
+EX00804,E02515,2024-02-22,Relocation,Voluntary,15,Good
+EX00805,E02517,2024-05-19,Attendance Issues,Involuntary,45,Average
+EX00806,E02525,2023-08-30,Layoff / Restructuring,Involuntary,45,Good
+EX00807,E02529,2023-12-22,Performance Issues,Involuntary,7,Excellent
+EX00808,E02532,2025-05-02,Better Opportunity,Voluntary,45,Poor
+EX00809,E02537,2025-05-04,Better Opportunity,Voluntary,0,Good
+EX00810,E02540,2024-06-02,Higher Compensation,Voluntary,15,Below Average
+EX00811,E02545,2024-08-30,Work-Life Balance,Voluntary,15,Average
+EX00812,E02546,2021-05-28,Work-Life Balance,Voluntary,15,Average
+EX00813,E02550,2024-01-12,Higher Education,Voluntary,0,Poor
+EX00814,E02552,2024-10-18,Work-Life Balance,Voluntary,30,Average
+EX00815,E02557,2022-01-29,Higher Compensation,Voluntary,60,Good
+EX00816,E02558,2022-08-24,Policy Violation,Involuntary,45,Poor
+EX00817,E02560,2023-06-09,Retirement,Retirement,15,Poor
+EX00818,E02564,2025-04-18,Layoff / Restructuring,Involuntary,0,Good
+EX00819,E02571,2023-06-19,Relocation,Voluntary,30,Below Average
+EX00820,E02574,2025-04-13,Relocation,Voluntary,60,Average
+EX00821,E02576,2022-08-03,Career Change,Voluntary,45,Good
+EX00822,E02577,2024-06-06,Performance Issues,Involuntary,45,Poor
+EX00823,E02581,2024-09-21,Higher Education,Voluntary,15,Excellent
+EX00824,E02586,2024-04-15,Work-Life Balance,Voluntary,60,Excellent
+EX00825,E02595,2025-06-15,Higher Education,Voluntary,30,Average
+EX00826,E02597,2025-04-16,Work-Life Balance,Voluntary,45,Good
+EX00827,E02602,2025-02-19,Policy Violation,Involuntary,7,Excellent
+EX00828,E02604,2023-12-11,Better Opportunity,Voluntary,45,Excellent
+EX00829,E02624,2024-02-29,Relocation,Voluntary,7,Below Average
+EX00830,E02630,2024-02-03,Layoff / Restructuring,Involuntary,30,Good
+EX00831,E02631,2024-08-26,Work-Life Balance,Voluntary,60,Poor
+EX00832,E02635,2025-04-10,Higher Education,Voluntary,30,Average
+EX00833,E02636,2023-11-08,Better Opportunity,Voluntary,0,Excellent
+EX00834,E02637,2023-01-07,Career Change,Voluntary,7,Good
+EX00835,E02642,2023-05-26,Higher Education,Voluntary,0,Below Average
+EX00836,E02646,2025-04-02,Career Change,Voluntary,15,Average
+EX00837,E02652,2025-04-07,Performance Issues,Involuntary,60,Below Average
+EX00838,E02656,2024-11-12,Relocation,Voluntary,0,Good
+EX00839,E02657,2024-04-20,Layoff / Restructuring,Involuntary,15,Good
+EX00840,E02658,2025-06-28,Career Change,Voluntary,45,Good
+EX00841,E02662,2023-02-05,Work-Life Balance,Voluntary,45,Good
+EX00842,E02666,2022-08-10,Higher Education,Voluntary,0,Good
+EX00843,E02670,2024-05-16,Layoff / Restructuring,Involuntary,15,Average
+EX00844,E02676,2024-09-10,Performance Issues,Involuntary,7,Average
+EX00845,E02678,2022-04-07,Work-Life Balance,Voluntary,0,Good
+EX00846,E02681,2022-06-20,Higher Compensation,Voluntary,15,Excellent
+EX00847,E02683,2024-02-20,Attendance Issues,Involuntary,0,Average
+EX00848,E02689,2024-04-17,Policy Violation,Involuntary,30,Poor
+EX00849,E02690,2024-05-02,Better Opportunity,Voluntary,0,Excellent
+EX00850,E02693,2024-11-09,Career Change,Voluntary,45,Excellent
+EX00851,E02694,2023-10-06,Higher Compensation,Voluntary,15,Good
+EX00852,E02696,2022-08-23,Career Change,Voluntary,45,Average
+EX00853,E02699,2025-05-27,Policy Violation,Involuntary,0,Excellent
+EX00854,E02704,2024-07-01,Higher Education,Voluntary,0,Good
+EX00855,E02705,2023-11-18,Policy Violation,Involuntary,60,Below Average
+EX00856,E02707,2025-03-05,Better Opportunity,Voluntary,0,Average
+EX00857,E02708,2025-02-10,Work-Life Balance,Voluntary,15,Average
+EX00858,E02709,2025-05-19,Relocation,Voluntary,60,Good
+EX00859,E02714,2024-05-06,Relocation,Voluntary,60,Average
+EX00860,E02718,2022-03-30,Work-Life Balance,Voluntary,7,Average
+EX00861,E02723,2020-08-24,Better Opportunity,Voluntary,15,Average
+EX00862,E02729,2025-02-08,Career Change,Voluntary,15,Good
+EX00863,E02730,2025-06-18,Retirement,Retirement,0,Good
+EX00864,E02732,2022-10-11,Work-Life Balance,Voluntary,30,Below Average
+EX00865,E02733,2024-08-11,Career Change,Voluntary,45,Average
+EX00866,E02734,2025-02-11,Layoff / Restructuring,Involuntary,15,Average
+EX00867,E02741,2021-12-07,Higher Compensation,Voluntary,0,Excellent
+EX00868,E02742,2025-05-26,Better Opportunity,Voluntary,30,Good
+EX00869,E02745,2022-08-24,Higher Education,Voluntary,30,Excellent
+EX00870,E02755,2025-05-14,Policy Violation,Involuntary,0,Average
+EX00871,E02759,2024-08-29,Relocation,Voluntary,45,Average
+EX00872,E02765,2025-02-16,Higher Compensation,Voluntary,0,Below Average
+EX00873,E02769,2024-01-17,Better Opportunity,Voluntary,15,Excellent
+EX00874,E02772,2024-12-15,Work-Life Balance,Voluntary,0,Average
+EX00875,E02773,2020-11-23,Attendance Issues,Involuntary,30,Excellent
+EX00876,E02778,2025-01-04,Higher Compensation,Voluntary,7,Poor
+EX00877,E02779,2024-06-22,Work-Life Balance,Voluntary,7,Average
+EX00878,E02780,2023-11-02,Relocation,Voluntary,30,Average
+EX00879,E02781,2024-04-23,Retirement,Retirement,15,Good
+EX00880,E02787,2023-12-10,Career Change,Voluntary,60,Below Average
+EX00881,E02792,2022-08-12,Higher Compensation,Voluntary,0,Good
+EX00882,E02793,2025-06-25,Career Change,Voluntary,0,Average
+EX00883,E02794,2025-01-26,Career Change,Voluntary,7,Good
+EX00884,E02796,2022-12-02,Better Opportunity,Voluntary,15,Good
+EX00885,E02797,2021-08-04,Higher Compensation,Voluntary,30,Below Average
+EX00886,E02798,2024-05-01,Performance Issues,Involuntary,15,Excellent
+EX00887,E02813,2024-09-21,Career Change,Voluntary,30,Good
+EX00888,E02814,2023-07-20,Career Change,Voluntary,45,Average
+EX00889,E02821,2024-11-10,Career Change,Voluntary,15,Average
+EX00890,E02822,2024-01-02,Relocation,Voluntary,0,Good
+EX00891,E02824,2021-09-24,Higher Education,Voluntary,15,Good
+EX00892,E02826,2023-12-13,Layoff / Restructuring,Involuntary,0,Average
+EX00893,E02830,2024-07-21,Retirement,Retirement,60,Good
+EX00894,E02832,2025-02-02,Relocation,Voluntary,45,Average
+EX00895,E02842,2025-01-20,Better Opportunity,Voluntary,0,Average
+EX00896,E02849,2024-06-10,Better Opportunity,Voluntary,30,Below Average
+EX00897,E02850,2025-05-16,Relocation,Voluntary,30,Average
+EX00898,E02858,2023-01-11,Relocation,Voluntary,60,Poor
+EX00899,E02862,2023-11-08,Performance Issues,Involuntary,0,Below Average
+EX00900,E02871,2024-09-01,Relocation,Voluntary,30,Average
+EX00901,E02878,2024-01-21,Relocation,Voluntary,7,Good
+EX00902,E02879,2024-02-20,Higher Compensation,Voluntary,0,Good
+EX00903,E02889,2022-09-14,Relocation,Voluntary,60,Excellent
+EX00904,E02895,2021-12-29,Relocation,Voluntary,30,Average
+EX00905,E02902,2023-03-14,Attendance Issues,Involuntary,45,Average
+EX00906,E02920,2023-08-21,Performance Issues,Involuntary,45,Excellent
+EX00907,E02927,2025-06-26,Higher Education,Voluntary,7,Below Average
+EX00908,E02930,2025-06-05,Retirement,Retirement,30,Average
+EX00909,E02931,2021-10-21,Higher Compensation,Voluntary,15,Good
+EX00910,E02933,2022-06-27,Policy Violation,Involuntary,60,Good
+EX00911,E02934,2024-11-12,Performance Issues,Involuntary,30,Good
+EX00912,E02936,2025-02-04,Better Opportunity,Voluntary,45,Excellent
+EX00913,E02938,2023-06-30,Career Change,Voluntary,60,Good
+EX00914,E02939,2024-06-01,Work-Life Balance,Voluntary,45,Average
+EX00915,E02942,2024-07-31,Retirement,Retirement,0,Good
+EX00916,E02952,2024-11-02,Relocation,Voluntary,60,Excellent
+EX00917,E02954,2025-03-21,Layoff / Restructuring,Involuntary,60,Excellent
+EX00918,E02957,2024-10-14,Higher Education,Voluntary,60,Good
+EX00919,E02958,2025-02-14,Higher Education,Voluntary,7,Good
+EX00920,E02964,2024-06-11,Higher Education,Voluntary,30,Excellent
+EX00921,E02978,2025-04-11,Relocation,Voluntary,7,Poor
+EX00922,E02979,2021-04-25,Work-Life Balance,Voluntary,60,Average
+EX00923,E02980,2023-04-28,Higher Education,Voluntary,30,Good
+EX00924,E02982,2025-04-21,Higher Education,Voluntary,45,Below Average
+EX00925,E02989,2020-07-17,Performance Issues,Involuntary,15,Excellent
+EX00926,E02990,2024-05-09,Career Change,Voluntary,7,Poor
+EX00927,E02991,2025-05-24,Career Change,Voluntary,60,Good
+EX00928,E02992,2025-04-15,Better Opportunity,Voluntary,45,Below Average
+EX00929,E02999,2024-03-22,Policy Violation,Involuntary,0,Excellent

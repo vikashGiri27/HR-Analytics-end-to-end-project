@@ -1,0 +1,13 @@
+Department_ID,Department_Name,Location,Budget,Head_Employee_ID
+D001,Human Resources,"London, UK",709805,E02972
+D002,Finance,"Hyderabad, India",2554301,E00064
+D003,Information Technology,"Pune, India",1670528,E02647
+D004,Sales,"London, UK",6176566,E02996
+D005,Marketing,"Sao Paulo, Brazil",1229295,E00009
+D006,Operations,"Toronto, Canada",766612,E00048
+D007,Customer Support,"New York, USA",1285972,E00213
+D008,Research and Development,"Mumbai, India",2451701,E00034
+D009,Legal,"Paris, France",5550099,E00027
+D010,Procurement,"New York, USA",5208064,E00174
+D011,Administration,"Mumbai, India",6506407,E00098
+D012,Quality Assurance,"Sao Paulo, Brazil",4019187,E00273
