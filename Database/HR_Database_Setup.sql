@@ -51,4 +51,19 @@ Employee_ID varchar(20),Attendance_Date date,Check_In time null,
 Check_Out time null, Working_Hours decimal(4,2),Overtime_Hours decimal(4,2),
 Attendance_Status varchar(30) not null,Shift varchar(30));
 
+desc attendance;
 
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/Attendance.csv'
+into table attendance
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows
+(Attendance_ID,Employee_ID,Attendance_Date,@Check_In,@Check_Out,Working_Hours,Overtime_Hours,Attendance_Status,Shift)
+set
+check_in=nullif(@check_in,''),
+check_out=nullif(@check_out,'');
+
+select * from attendance;
+
+#----------------------------------------------------------------------------------------------------------------------
