@@ -67,3 +67,9 @@ check_out=nullif(@check_out,'');
 select * from attendance;
 
 #----------------------------------------------------------------------------------------------------------------------
+#Exit Table
+
+create table Exit_data(Exit_ID varchar(30) primary key,Employee_ID varchar(30) unique,
+Exit_Date date,Exit_Reason varchar(100),Exit_Type varchar(50),
+Notice_Period int,Final_Rating varchar(50));
+	
