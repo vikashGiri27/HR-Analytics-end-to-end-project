@@ -28,4 +28,17 @@ set manager_id=nullif(@manager_id,'');
 select * from employees;
 
 #------------------------------------------------------------------------------------------------
-#
+#Jobs Table
+
+create table jobs(Job_ID varchar(30) primary key,Job_Title varchar(100),
+Grade varchar(10),Minimum_Salary decimal(10,2),Maximum_Salary decimal(10,2));
+desc jobs;
+
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/jobs.csv'
+into table jobs
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows;
+
+select * from jobs;
