@@ -41,4 +41,14 @@ enclosed by '"'
 lines terminated by '\n'
 ignore 1 rows;
 
+use hr_analytics;
 select * from jobs;
+
+#------------------------------------------------------------------------------------------------
+#Attendance Table
+create table Attendance(Attendance_ID varchar(20) primary key,
+Employee_ID varchar(20),Attendance_Date date,Check_In time null,
+Check_Out time null, Working_Hours decimal(4,2),Overtime_Hours decimal(4,2),
+Attendance_Status varchar(30) not null,Shift varchar(30));
+
+
