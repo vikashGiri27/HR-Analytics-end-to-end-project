@@ -98,3 +98,13 @@ lines terminated by '\n'
 ignore 1 rows;
 
 select * from training;
+
+#---------------------------------------------------------------------------------------------------------------------------
+#Leave Table
+
+create table leave_data(Leave_ID varchar(20) primary key,Employee_ID	varchar(20),Leave_Type varchar(50),
+Start_Date date,End_Date date,Total_Days int,Approval_Status varchar(50));
+
+desc leave_data;
+
+load data infile
