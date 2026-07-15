@@ -85,4 +85,10 @@ ignore 1 rows;
 select * from exit_data;
 
 #-------------------------------------------------------------------------------------------------------------------------
-#
+#Training Table
+create table Training(Training_ID varchar(20) primary key,Employee_ID varchar(20),
+Training_Name varchar(100),Provider	varchar(50),Start_Date date,End_Date date,
+Training_Cost decimal(10,2),Certification_Status varchar(50));
+
+
+
