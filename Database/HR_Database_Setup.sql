@@ -107,4 +107,13 @@ Start_Date date,End_Date date,Total_Days int,Approval_Status varchar(50));
 
 desc leave_data;
 
-load data infile
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/leave.csv'
+into table leave_data
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows;
+
+select * from leave_data;
+
+#--------------------------------------------------------------------------------------------------------------------
