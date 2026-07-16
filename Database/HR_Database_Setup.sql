@@ -117,3 +117,12 @@ ignore 1 rows;
 select * from leave_data;
 
 #--------------------------------------------------------------------------------------------------------------------
+#Payroll
+
+create table payroll(Payroll_ID	varchar(20) primary key,Employee_ID varchar(20),
+Payroll_Month date,Basic_Salary decimal(6,2),Allowances decimal(6,2),Bonus decimal(6,2),
+Tax	decimal(6,2),Deductions decimal(6,2),Net_Salary decimal(6,2),Payment_Date date);
+
+desc payroll;
+load data infile 
+
