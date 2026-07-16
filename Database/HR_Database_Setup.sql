@@ -136,6 +136,19 @@ select * from payroll;
 #-----------------------------------------------------------------------------------------------------------
 #Performance
 create table performance(Performance_ID varchar(20) primary key,Employee_ID varchar(20),
-Review_Date date,Reviewer_ID varchar(20),KPI_Score decimal(4,2),Productivity_Score	decimal(4,2),
-Attendance_Score decimal(4,2),Teamwork_Score decimal(4,2),Overall_Rating varchar(30),
+Review_Date date,Reviewer_ID varchar(20),KPI_Score decimal(6,2),Productivity_Score	decimal(6,2),
+Attendance_Score decimal(6,2),Teamwork_Score decimal(6,2),Overall_Rating varchar(30),
 Promotion_Recommendation varchar(20));
+
+desc performance;
+
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/performance.csv'
+into table performance
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows;
+
+select * from performance;
+
+#--------------------------------------------------------------------------------------------------------
