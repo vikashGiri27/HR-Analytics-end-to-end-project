@@ -120,9 +120,17 @@ select * from leave_data;
 #Payroll
 
 create table payroll(Payroll_ID	varchar(20) primary key,Employee_ID varchar(20),
-Payroll_Month date,Basic_Salary decimal(6,2),Allowances decimal(6,2),Bonus decimal(6,2),
-Tax	decimal(6,2),Deductions decimal(6,2),Net_Salary decimal(6,2),Payment_Date date);
+Payroll_Month varchar(10),Basic_Salary decimal(10,2),Allowances decimal(10,2),Bonus decimal(10,2),
+Tax	decimal(10,2),Deductions decimal(10,2),Net_Salary decimal(10,2),Payment_Date date);
 
+drop table payroll;
 desc payroll;
-load data infile 
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/payroll.csv'
+into table payroll
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows;
+
+select * from payroll;
 
