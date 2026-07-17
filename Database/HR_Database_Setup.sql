@@ -159,3 +159,14 @@ Interview_Date date,Recruiter_ID varchar(20),Interview_Score decimal(6,2),
 Hiring_Status varchar(50),Joining_Date date null);
 desc recruitment;
 
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/recruitment.csv'
+into table recruitment
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows
+(Recruitment_ID ,Candidate_ID ,Candidate_Name ,Position,Department_ID,Application_Date,
+Interview_Date,Recruiter_ID,Interview_Score,Hiring_Status,@Joining_Date)
+set Joining_Date=nullif(@Joining_Date, '');
+
+select * from recruitment;
