@@ -152,3 +152,10 @@ ignore 1 rows;
 select * from performance;
 
 #--------------------------------------------------------------------------------------------------------
+#Recruitment
+create table Recruitment(Recruitment_ID varchar(20) primary key,Candidate_ID varchar(20),
+Candidate_Name varchar(50),Position varchar(50),Department_ID varchar(20),Application_Date date,
+Interview_Date date,Recruiter_ID varchar(20),Interview_Score decimal(6,2),
+Hiring_Status varchar(50),Joining_Date date null);
+desc recruitment;
+
