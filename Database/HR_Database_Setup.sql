@@ -170,3 +170,20 @@ Interview_Date,Recruiter_ID,Interview_Score,Hiring_Status,@Joining_Date)
 set Joining_Date=nullif(@Joining_Date, '');
 
 select * from recruitment;
+#--------------------------------------------------------------------------------------------------------
+# Adding Foreign Key Constraints
+
+#Employees-> Departments,jobs,self reference manager
+alter table employees add constraint fk_employee_department
+foreign key (department_id)  references departments(department_id);
+desc employees;
+
+alter table employees add constraint fk_employees_job foreign key
+(job_id) references jobs(job_id);
+desc employees;
+
+alter table employees add constraint fk_employees_manager
+foreign key (manager_id) references employees(employee_id);
+
+desc employees;
+
