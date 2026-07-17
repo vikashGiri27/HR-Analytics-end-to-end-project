@@ -197,3 +197,8 @@ desc departments;
 alter table leave_data add constraint fk_leave_employee
 foreign key (employee_id) references employees (employee_id);
 
+#Training -> Employees
+alter table training add constraint fk_training_employees
+foreign key (employee_id) references employees (employee_id);
+
+
