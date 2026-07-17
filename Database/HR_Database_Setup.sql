@@ -187,3 +187,13 @@ foreign key (manager_id) references employees(employee_id);
 
 desc employees;
 
+#Departments table-> Employees table
+alter table departments add constraint fk_department_head_id 
+foreign key (head_employee_id) references employees(employee_id);
+
+desc departments;
+
+#leave_date -> Employees
+alter table leave_data add constraint fk_leave_employee
+foreign key (employee_id) references employees (employee_id);
+
