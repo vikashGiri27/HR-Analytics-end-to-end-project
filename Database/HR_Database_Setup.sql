@@ -218,4 +218,10 @@ foreign key (employee_id) references employees (employee_id);
 
 desc payroll;
 
+#Performance -> employees
+alter table performance add constraint fk_performance_employee
+foreign key (employee_id) references employees (employee_id);
+
+desc payroll;
+
 #
