@@ -229,4 +229,14 @@ desc performance;
 alter table recruitment add constraint fk_recruitment_employee
 foreign key (department_id) references departments (department_id);
 
+
+
 desc recruitment;
+
+#Exit -> Employees
+alter table exit_data add constraint fk_exit_employee
+foreign key (employee_id) references employees(employee_id);
+
+desc exit_data;
+
+
