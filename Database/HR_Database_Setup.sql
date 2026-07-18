@@ -211,3 +211,11 @@ alter table attendance add constraint fk_attendance_employee
 foreign key (employee_id) references employees (employee_id);
 
 desc attendance;
+
+#payroll -> Employees
+alter table payroll add constraint fk_payroll_employee
+foreign key (employee_id) references employees (employee_id);
+
+desc payroll;
+
+#
