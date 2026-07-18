@@ -229,7 +229,7 @@ desc performance;
 alter table recruitment add constraint fk_recruitment_employee
 foreign key (department_id) references departments (department_id);
 
-alter table recruitment add constraint fk_recuritment_recruiter 
+alter table recruitment add constraint fk_recruitment_recruiter 
 foreign key (recruiter_id) references employees (employee_id);
 
 desc recruitment;
