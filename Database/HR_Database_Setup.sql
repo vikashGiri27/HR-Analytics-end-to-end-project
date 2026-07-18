@@ -224,4 +224,6 @@ foreign key (employee_id) references employees (employee_id);
 
 desc payroll;
 
-#
+#Recuritment -> departments
+alter table recruitment add constraint fk_recruitment_employee
+foreign key (department_id) references departments (department_id);
