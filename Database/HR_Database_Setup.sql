@@ -176,11 +176,9 @@ select * from recruitment;
 #Employees-> Departments,jobs,self reference manager
 alter table employees add constraint fk_employee_department
 foreign key (department_id)  references departments(department_id);
-desc employees;
 
 alter table employees add constraint fk_employees_job foreign key
 (job_id) references jobs(job_id);
-desc employees;
 
 alter table employees add constraint fk_employees_manager
 foreign key (manager_id) references employees(employee_id);
@@ -222,8 +220,13 @@ desc payroll;
 alter table performance add constraint fk_performance_employee
 foreign key (employee_id) references employees (employee_id);
 
-desc payroll;
+alter table performance add constraint fk_performance_reviewer
+foreign key (reviewer_id) references employees(employee_id);
+
+desc performance;
 
 #Recuritment -> departments
 alter table recruitment add constraint fk_recruitment_employee
 foreign key (department_id) references departments (department_id);
+
+desc recruitment;
