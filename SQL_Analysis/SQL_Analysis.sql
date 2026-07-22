@@ -23,3 +23,5 @@ select concat(first_name,' ',last_name) as employee_name,experience_years
 from employees order by Experience_Years desc limit 10;
 
 #Q6. Find the number of employees in each county.
+select country,count(*) as employee_count from employees
+group by country order by employee_count desc;
