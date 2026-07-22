@@ -38,5 +38,19 @@ group by attendance_status order by total_records desc;
 #Q2. Calculate the average working hours of employees
 select round(avg(working_hours),2) as avg_working_hours from attendance;
 
+#Q3. Find the top 10 employees with the highest overtime hours.
+select concat(first_name,' ',last_name) as employee_name,
+sum(overtime_hours) as total_overtime from employees
+inner join attendance using(employee_id)
+group by concat(first_name,' ',last_name)
+order by total_overtime desc limit 10;
+
+
+#Q4. Find the average overtime hours by shift.
+
+
+#Q5. Find the attendance count of each shift.
+
+
 
 
