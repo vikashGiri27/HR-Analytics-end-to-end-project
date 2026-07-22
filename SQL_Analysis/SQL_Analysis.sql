@@ -25,3 +25,17 @@ from employees order by Experience_Years desc limit 10;
 #Q6. Find the number of employees in each county.
 select country,count(*) as employee_count from employees
 group by country order by employee_count desc;
+
+
+
+/*--------------------------------Attendance Table-------------------------------------*/
+select * from attendance;
+
+#Q1. Find the number of employees by attendance status.
+select attendance_status,count(attendance_status)as count from attendance
+group by attendance_status order by count desc;
+
+
+
+
+
