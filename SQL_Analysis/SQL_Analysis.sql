@@ -32,10 +32,11 @@ group by country order by employee_count desc;
 select * from attendance;
 
 #Q1. Find the number of employees by attendance status.
-select attendance_status,count(attendance_status)as count from attendance
-group by attendance_status order by count desc;
+select attendance_status,count(*) as total_records from attendance
+group by attendance_status order by total_records desc;
 
-
+#Q2. Calculate the average working hours of employees
+select round(avg(working_hours),2) as avg_working_hours from attendance;
 
 
 
