@@ -63,7 +63,10 @@ select department_name,count(employee_id) as employee_count
 from departments inner join employees using(department_id)
 group by department_name order by employee_count desc;
 
-
+#Q2. Find the average salary in each department.
+select department_name,round(avg(salary),2) as avg_salary from departments
+inner join employees using(department_id) group by department_name
+order by avg_salary desc;
 
 
 
