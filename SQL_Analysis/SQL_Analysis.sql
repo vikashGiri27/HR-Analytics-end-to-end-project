@@ -53,6 +53,8 @@ from attendance group by shift order by avg_overtime_hrs desc;
 
 
 #Q5. Find the attendance count of each shift.
+select shift,count(*) as Attendance_count
+from attendance group by shift order by attendance_count desc;
 
 
 
