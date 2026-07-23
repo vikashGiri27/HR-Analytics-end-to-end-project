@@ -11,8 +11,8 @@ select year(hire_date) as year,count(*) as emp_count
 from employees group by year order by year asc;
 
 #Q3. Find top 10 highest paid employees.
-select concat(first_name,' ',last_name) as employee_name,sum(salary) as salary
-from employees group by concat(first_name,' ',last_name) order by salary asc limit 10;
+select concat(first_name,' ',last_name) as employee_name,salary
+from employees order by salary desc limit 10;
 
 #Q4. calculate the average salary by education level.
 select education,round(avg(salary),2) as salary from employees
@@ -55,6 +55,15 @@ from attendance group by shift order by avg_overtime_hrs desc;
 #Q5. Find the attendance count of each shift.
 select shift,count(*) as Attendance_count
 from attendance group by shift order by attendance_count desc;
+
+#---------------------------Department---------------------------------------
+
+#Q1. Find the numbers of employees in each department.
+select department_name,count(employee_id) as employee_count
+from departments inner join employees using(department_id)
+group by department_name order by employee_count desc;
+
+
 
 
 
