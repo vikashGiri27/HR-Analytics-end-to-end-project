@@ -47,6 +47,9 @@ order by total_overtime desc limit 10;
 
 
 #Q4. Find the average overtime hours by shift.
+select * from attendance;
+select shift,(avg(overtime_hours)) as avg_overtime_hrs
+from attendance group by shift order by avg_overtime_hrs desc;
 
 
 #Q5. Find the attendance count of each shift.
