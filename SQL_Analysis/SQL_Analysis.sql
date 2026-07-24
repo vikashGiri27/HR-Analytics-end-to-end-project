@@ -68,6 +68,11 @@ select department_name,round(avg(salary),2) as avg_salary from departments
 inner join employees using(department_id) group by department_name
 order by avg_salary desc;
 
+#Q3. Find the total salary expense of each department.
+select department_name,sum(budget) as salary_expense from departments
+group by department_name order by salary_expense desc;
 
+#Q4. Find the average experience of employees in each department.
+#Q5. Find the highest paid employee in each department.
 
 
