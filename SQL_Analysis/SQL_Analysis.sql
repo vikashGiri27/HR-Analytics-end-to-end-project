@@ -74,6 +74,16 @@ inner join employees e on d.Department_ID=e.department_id
 group by department_name order by salary_expense desc;
 
 #Q4. Find the average experience of employees in each department.
+select d.department_name,round(avg(e.experience_years),2) as avg_experience 
+from departments d inner join employees e on d.department_id=e.Department_ID
+group by Department_Name order by avg_experience desc;
+
 #Q5. Find the highest paid employee in each department.
+with high_sal as
+(select d.department_name,e.salary,dense_rank()
+over (partition by Department_Name order by salary desc) as rnk
+from departments d inner join employees e on d.Department_ID=e.Department_ID)
+select department_name,salary from high_sal where rnk=1;
+
 
 
