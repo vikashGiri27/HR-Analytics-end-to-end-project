@@ -69,7 +69,8 @@ inner join employees using(department_id) group by department_name
 order by avg_salary desc;
 
 #Q3. Find the total salary expense of each department.
-select department_name,sum(budget) as salary_expense from departments
+select d.department_name,sum(e.salary) as salary_expense from departments d
+inner join employees e on d.Department_ID=e.department_id
 group by department_name order by salary_expense desc;
 
 #Q4. Find the average experience of employees in each department.
