@@ -80,10 +80,11 @@ group by Department_Name order by avg_experience desc;
 
 #Q5. Find the highest paid employee in each department.
 with high_sal as
-(select d.department_name,e.salary,dense_rank()
-over (partition by Department_Name order by salary desc) as rnk
+(select e.Employee_ID,concat(e.First_Name,' ',e.last_name) as employee_Name,
+d.department_name,e.salary,dense_rank()
+over (partition by d.Department_Name order by e.salary desc) as rnk
 from departments d inner join employees e on d.Department_ID=e.Department_ID)
-select department_name,salary from high_sal where rnk=1;
+select employee_id,employee_name,department_name,salary from high_sal where rnk=1;
 
 
 
