@@ -86,5 +86,13 @@ over (partition by d.Department_Name order by e.salary desc) as rnk
 from departments d inner join employees e on d.Department_ID=e.Department_ID)
 select employee_id,employee_name,department_name,salary from high_sal where rnk=1;
 
+#----------------------------- Payroll----------------------------------------------------
 
+#Q1. Find the total payroll amount of the organization.
+select sum(net_salary) as total_payroll_amount from payroll;
+
+#Q2. Find the top 10 employees with highest net salary.
+select e.employee_id,concat(e.first_name,' ',e.last_name)as full_name,p.net_salary
+from employees e inner join payroll p on e.Employee_ID=p.Employee_ID 
+order by net_salary desc limit 10;
 
