@@ -93,6 +93,16 @@ select sum(net_salary) as total_payroll_amount from payroll;
 
 #Q2. Find the top 10 employees with highest net salary.
 select e.employee_id,concat(e.first_name,' ',e.last_name)as full_name,p.net_salary
-from employees e inner join payroll p on e.Employee_ID=p.Employee_ID 
+from employees e inner join payroll p on e.Employee_ID=p.Employee_ID
 order by net_salary desc limit 10;
 
+#Q3. Calculate the avergae net salary by department.
+select d.department_name,avg(p.net_salary) as avg_net_salary
+from departments d inner join employees e
+on d.Department_ID=e.Department_ID inner join
+payroll p on e.Employee_ID=p.Employee_ID
+group by department_name order by avg_net_salary desc;
+
+#Q4. Find the department with the highest deductions.
+
+#Q5. compare total basic salary vs total net salary.
