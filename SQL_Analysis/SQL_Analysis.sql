@@ -111,7 +111,8 @@ payroll p on e.Employee_ID=p.Employee_ID
 group by department_name order by total_deduction desc;
 
 #Q5. compare total basic salary vs total net salary.
-
+select sum(basic_salary) as total_salary,sum(net_salary) as total_net_Salary,
+sum(basic_salary)-sum(net_salary) as salary_difference from payroll;
 
 
 
