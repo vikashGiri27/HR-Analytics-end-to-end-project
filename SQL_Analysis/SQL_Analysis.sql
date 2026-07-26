@@ -121,3 +121,9 @@ select d.department_name,round(avg(p.kpi_score),2)as avg_Kpi_score
 from departments d inner join employees e on d.department_id=e.Department_ID
 inner join performance p on e.employee_id=p.employee_id 
 group by d.department_name order by avg_Kpi_score desc;
+
+#Q2. Find the top 10 highest-performing employees.
+select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
+round(avg(p.kpi_score),2) as Performance from employees e inner join
+performance p on e.employee_id=p.employee_id group by e.employee_id,
+e.first_name,e.last_name order by performance desc limit 10;
