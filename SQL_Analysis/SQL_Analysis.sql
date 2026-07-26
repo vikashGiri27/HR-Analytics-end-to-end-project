@@ -116,7 +116,7 @@ sum(basic_salary)-sum(net_salary) as salary_difference from payroll;
 
 #--------------------------- Performance----------------------------------------
 
-#Q1. Calculate the Kpi score by department.
+#Q1. Calculate the avgerage Kpi score by department.
 select d.department_name,round(avg(p.kpi_score),2)as avg_Kpi_score 
 from departments d inner join employees e on d.department_id=e.Department_ID
 inner join performance p on e.employee_id=p.employee_id 
@@ -127,3 +127,10 @@ select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
 round(avg(p.kpi_score),2) as Performance from employees e inner join
 performance p on e.employee_id=p.employee_id group by e.employee_id,
 e.first_name,e.last_name order by performance desc limit 10;
+
+#Q3. Find the top 10 employees with the highest productivity score.
+select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
+p.productivity_score from employees e inner join performance p
+on e.employee_id=p.Employee_ID order by Productivity_Score desc limit 10;
+
+
