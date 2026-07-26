@@ -104,5 +104,14 @@ payroll p on e.Employee_ID=p.Employee_ID
 group by department_name order by avg_net_salary desc;
 
 #Q4. Find the department with the highest deductions.
+select d.department_name,sum(p.deductions) as total_deduction 
+from departments d inner join employees e
+on d.Department_ID=e.Department_ID inner join
+payroll p on e.Employee_ID=p.Employee_ID
+group by department_name order by total_deduction desc;
 
 #Q5. compare total basic salary vs total net salary.
+
+
+
+
