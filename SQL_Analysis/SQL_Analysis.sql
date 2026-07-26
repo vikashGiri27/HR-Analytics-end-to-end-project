@@ -114,5 +114,10 @@ group by department_name order by total_deduction desc;
 select sum(basic_salary) as total_salary,sum(net_salary) as total_net_Salary,
 sum(basic_salary)-sum(net_salary) as salary_difference from payroll;
 
+#--------------------------- Performance----------------------------------------
 
-
+#Q1. Calculate the Kpi score by department.
+select d.department_name,round(avg(p.kpi_score),2)as avg_Kpi_score 
+from departments d inner join employees e on d.department_id=e.Department_ID
+inner join performance p on e.employee_id=p.employee_id 
+group by d.department_name order by avg_Kpi_score desc;
