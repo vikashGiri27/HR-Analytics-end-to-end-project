@@ -1,8 +1,7 @@
 use hr_analytics;
 
-/*--------------------------------------------------------------------
-                           Employees Table
---------------------------------------------------------------------*/
+#---------------------Employees------------------------------
+
 #Q1. Find the total numbers of employees.
 select count(*) as emp_count from employees;
 
@@ -118,7 +117,8 @@ sum(basic_salary)-sum(net_salary) as salary_difference from payroll;
 
 #Q1. Calculate the avgerage Kpi score by department.
 select d.department_name,round(avg(p.kpi_score),2)as avg_Kpi_score 
-from departments d inner join employees e on d.department_id=e.Department_ID
+from departments d inner join 
+employees e on d.department_id=e.Department_ID
 inner join performance p on e.employee_id=p.employee_id 
 group by d.department_name order by avg_Kpi_score desc;
 
@@ -128,9 +128,18 @@ round(avg(p.kpi_score),2) as Performance from employees e inner join
 performance p on e.employee_id=p.employee_id group by e.employee_id,
 e.first_name,e.last_name order by performance desc limit 10;
 
-#Q3. Find the top 10 employees with the highest productivity score.
-select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
-p.productivity_score from employees e inner join performance p
-on e.employee_id=p.Employee_ID order by Productivity_Score desc limit 10;
+#Q3. Find the average kpi score by overall rating.
+select Overall_Rating,round(avg(KPI_Score),2) as Average_Kpi
+from performance group by Overall_Rating order by average_kpi desc; 
+
+#-------------------------------Exit----------------------------------
+
+#Q1. Analyze employee exit by year.
+select year(exit_date) as year,count(*) as exit_count
+from exit_data group by year(exit_date) order by year;
+
+
+
+
 
 

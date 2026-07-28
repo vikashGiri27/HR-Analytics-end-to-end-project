@@ -241,3 +241,6 @@ foreign key (employee_id) references employees(employee_id);
 desc exit_data;
 
 
+use hr_analytics;
+select * from departments;
+
