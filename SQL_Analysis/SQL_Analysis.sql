@@ -132,11 +132,16 @@ e.first_name,e.last_name order by performance desc limit 10;
 select Overall_Rating,round(avg(KPI_Score),2) as Average_Kpi
 from performance group by Overall_Rating order by average_kpi desc; 
 
-#-------------------------------Exit----------------------------------
+#-------------------------------Exit_data----------------------------------------
 
 #Q1. Analyze employee exit by year.
 select year(exit_date) as year,count(*) as exit_count
 from exit_data group by year(exit_date) order by year;
+
+#Q2. Find the top exit reasons.
+select exit_reason,count(*) exit_count from exit_data
+group by Exit_Reason order by exit_count desc;
+
 
 
 
