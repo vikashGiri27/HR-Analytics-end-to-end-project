@@ -148,6 +148,10 @@ from departments d inner join employees e on e.Department_ID=d.Department_ID
 inner join exit_data x on e.Employee_ID=x.Employee_ID
 group by d.Department_Name order by total_exit_count desc;
 
+#Q4. Calculate the average tenure of exited employee.
+select round(avg(timestampdiff(month,hire_date,exit_date))/12,2) as tenure
+from employees e inner join exit_data x on e.Employee_ID=x.Employee_ID;
+
 
 
 
