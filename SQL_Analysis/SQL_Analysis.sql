@@ -158,6 +158,13 @@ inner join exit_data x on e.Employee_ID=x.Employee_ID
 group by e.Gender order by exit_count desc;
 
 
+#-------------------------------Leave----------------------------------------------
+
+#Q1. Find the most common leave type
+select leave_type,count(*) as leave_count from leave_data
+group by Leave_Type order by leave_count desc;
+
+
 
 
 
