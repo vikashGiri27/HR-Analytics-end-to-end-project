@@ -142,7 +142,11 @@ from exit_data group by year(exit_date) order by year;
 select exit_reason,count(*) exit_count from exit_data
 group by Exit_Reason order by exit_count desc;
 
-
+#Q3. Analyze employee exit by department.
+select d.department_name,count(x.exit_id) as total_exit_count
+from departments d inner join employees e on e.Department_ID=d.Department_ID
+inner join exit_data x on e.Employee_ID=x.Employee_ID
+group by d.Department_Name order by total_exit_count desc;
 
 
 
