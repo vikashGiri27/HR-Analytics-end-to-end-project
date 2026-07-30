@@ -173,6 +173,12 @@ from leave_data group by leave_type order by avg_leave_duration desc;
 select approval_status,count(approval_status) as approval_count
 from leave_data group by Approval_Status order by Approval_count desc;
 
+#Q4. Find the department with the highest number of leave request.
+select d.department_name,count(l.leave_id) as leave_request_count 
+from departments d inner join employees e on d.department_id=e.department_id
+inner join leave_data l on e.employee_id=l.employee_id
+group by d.Department_Name order by leave_request_count desc;
+
 
 
 
