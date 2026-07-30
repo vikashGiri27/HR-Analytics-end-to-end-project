@@ -169,13 +169,10 @@ select Leave_Type,round(avg(datediff(end_date,start_date)),2) as avg_leave_durat
 from leave_data group by leave_type order by avg_leave_duration desc;
 
 
-#Q3. Analyze Approved vs rejected leave requests.
+#Q3. Analyze leave request by approval status.
+select approval_status,count(approval_status) as approval_count
+from leave_data group by Approval_Status order by Approval_count desc;
 
-
-#Q4. Find the departments with the highest number of leaves request.
-
-
-#Q5. Find employees who have taken the highest number of leave days.
 
 
 
