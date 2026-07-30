@@ -164,7 +164,18 @@ group by e.Gender order by exit_count desc;
 select leave_type,count(*) as leave_count from leave_data
 group by Leave_Type order by leave_count desc;
 
+#Q2. Calculate the average leave duration by leave type.
+select Leave_Type,round(avg(datediff(end_date,start_date)),2) as avg_leave_duration
+from leave_data group by leave_type order by avg_leave_duration desc;
 
+
+#Q3. Analyze Approved vs rejected leave requests.
+
+
+#Q4. Find the departments with the highest number of leaves request.
+
+
+#Q5. Find employees who have taken the highest number of leave days.
 
 
 
