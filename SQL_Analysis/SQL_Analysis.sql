@@ -180,5 +180,10 @@ inner join leave_data l on e.employee_id=l.employee_id
 group by d.Department_Name order by leave_request_count desc;
 
 
+#Q5. Find the employees who have taken the highest number of leave days.
+select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
+sum(l.total_days) as total_leave from employees e inner join leave_data l
+on e.Employee_ID=l.Employee_ID group by e.Employee_id,e.First_Name,e.Last_Name
+order by total_leave desc;
 
 
