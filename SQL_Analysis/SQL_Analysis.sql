@@ -186,4 +186,6 @@ sum(l.total_days) as total_leave from employees e inner join leave_data l
 on e.Employee_ID=l.Employee_ID group by e.Employee_id,e.First_Name,e.Last_Name
 order by total_leave desc;
 
+#------------------------------Other Table----------------------------------------
+
 
