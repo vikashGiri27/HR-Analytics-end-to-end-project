@@ -16,3 +16,15 @@ select * from employees;
 select e.employee_id,concat(e.first_name,' ',e1.last_name) as employee_name,
 concat(e1.first_name,' ',e1.last_name) as manager_name
 from employees e join employees e1 on e.manager_id=e1.Employee_ID;
+
+#Q4. Find the second-highest paid employee in each department.
+with second_highest_salary as
+(select e.employee_id,
+concat(e.first_name,' ',e.last_name)as employee_name,
+  e.salary,d.department_name,
+dense_rank() over(partition by d.department_name
+order by e.salary desc) as salary_rank
+from employees e inner join departments d 
+on e.department_id=d.department_id)
+select employee_id,employee_name,department_name,
+salary,salary_rank from second_highest_salary where salary_rank=2;
