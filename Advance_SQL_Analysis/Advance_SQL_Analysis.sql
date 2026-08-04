@@ -31,11 +31,11 @@ salary,salary_rank from second_highest_salary where salary_rank=2;
 
 
 #Q5. Find the employees whose salary is in the top 10% of salaries in the organization.
-with salary_buckets as
+with salary_bucket as
 (select employee_id,
 concat(first_name,' ',last_name) as employee_name,
 salary,ntile(10) over(order by salary desc) as
 salary_bucket from employees)
 select employee_id,employee_name,salary
-from salary_buckets where salary_bucket=1
+from salary_bucket where salary_bucket=1
 order by salary desc;
