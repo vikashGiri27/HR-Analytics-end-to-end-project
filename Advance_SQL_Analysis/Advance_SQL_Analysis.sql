@@ -29,7 +29,6 @@ on e.department_id=d.department_id)
 select employee_id,employee_name,department_name,
 salary,salary_rank from second_highest_salary where salary_rank=2;
 
-
 #Q5. Find the employees whose salary is in the top 10% of salaries in the organization.
 with salary_bucket as
 (select employee_id,
@@ -39,3 +38,18 @@ salary_bucket from employees)
 select employee_id,employee_name,salary
 from salary_bucket where salary_bucket=1
 order by salary desc;
+
+#Q6. Find the employees who have the highest total overtime hours in each department.
+with highest_overtime as
+(with employee_overtime as
+(select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
+d.department_name,sum(a.overtime_hours) as total_overtime from employees e
+inner join departments d on e.department_id=d.department_id inner join
+attendance a on e.Employee_ID=a.Employee_ID group by e.Employee_ID,
+e.First_Name,e.Last_Name,d.Department_Name)
+select employee_id,employee_name,department_name,total_overtime,
+dense_rank() over(partition by department_name
+order by total_overtime desc) as overtime_rank
+from employee_overtime)
+select employee_id,employee_name,department_name,total_overtime
+from highest_overtime where overtime_rank=1;
