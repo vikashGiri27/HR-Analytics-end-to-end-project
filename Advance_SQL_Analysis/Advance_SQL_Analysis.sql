@@ -53,3 +53,6 @@ order by total_overtime desc) as overtime_rank
 from employee_overtime)
 select employee_id,employee_name,department_name,total_overtime
 from highest_overtime where overtime_rank=1;
+
+
+#Q7. Find the employee who have taken more leave days than the average leave days taken by all employees.
