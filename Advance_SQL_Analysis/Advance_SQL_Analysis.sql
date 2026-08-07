@@ -56,3 +56,12 @@ from highest_overtime where overtime_rank=1;
 
 
 #Q7. Find the employee who have taken more leave days than the average leave days taken by all employees.
+select e.employee_id,concat(e.first_name,' ',e.last_name) as 
+employee_name,sum(l.total_days) as total_leave_days from
+employees e inner join leave_data l on e.Employee_ID=
+l.Employee_ID group by e.Employee_ID,e.First_Name,
+e.Last_Name having sum(l.total_days)>
+(select avg(total_leave) from
+(select employee_id,sum(total_days) as total_leave from leave_Data
+group by employee_id) as x)
+order by total_leave_days desc;
