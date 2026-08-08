@@ -4,7 +4,6 @@ e.salary from employees e where salary>(select avg(e1.salary)
 from employees e1 where e.Department_ID=e1.department_id);
 
 #Q2. Classify employees into salary bands based on their salary.
-select  salary from employees order by salary desc;
 select concat(First_Name,'',last_name) as employee_name,salary,case
 when salary<80000 then "Low salary"
 when salary between 80000 and 150000 then 'Medium salary'
@@ -62,6 +61,18 @@ employees e inner join leave_data l on e.Employee_ID=
 l.Employee_ID group by e.Employee_ID,e.First_Name,
 e.Last_Name having sum(l.total_days)>
 (select avg(total_leave) from
+
 (select employee_id,sum(total_days) as total_leave from leave_Data
 group by employee_id) as x)
 order by total_leave_days desc;
+
+
+#Q8. Calculate the year-over-year change in employee exits to identify whether
+#employee exits increased or decreased each year.
+With yoy_attrition_diff as
+(select year(exit_date) as year,count(Exit_ID) as employee_attrition_count,
+lag(count(exit_id)) over(order by year(exit_date)) as
+ previous_year_attrition_count from exit_data group by year )
+select year,employee_attrition_count,previous_year_attrition_count,
+employee_attrition_count-previous_year_attrition_count as
+yoy_attrition_difference from yoy_attrition_diff;
