@@ -29,16 +29,18 @@ select * from employees;
 
 #------------------------------------------------------------------------------------------------
 #Department Table
-create table departments(Department_ID varchar(20),Department_Name varchar(100),
+create table departments(Department_ID varchar(20) primary key,Department_Name varchar(100),
 Location varchar(20),Budget decimal(10,2),Head_Employee_ID varchar(20));
 desc departments;
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/jobs.csv'
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/Departments.csv'
 into table departments
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'
 ignore 1 rows;
+
+select * from departments;
 
 #------------------------------------------------------------------------------------------------
 #Jobs Table
@@ -54,7 +56,6 @@ enclosed by '"'
 lines terminated by '\n'
 ignore 1 rows;
 
-use hr_analytics;
 select * from jobs;
 
 #------------------------------------------------------------------------------------------------
@@ -136,8 +137,8 @@ create table payroll(Payroll_ID	varchar(20) primary key,Employee_ID varchar(20),
 Payroll_Month varchar(10),Basic_Salary decimal(10,2),Allowances decimal(10,2),Bonus decimal(10,2),
 Tax	decimal(10,2),Deductions decimal(10,2),Net_Salary decimal(10,2),Payment_Date date);
 
-drop table payroll;
 desc payroll;
+
 load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/payroll.csv'
 into table payroll
 fields terminated by ','
@@ -204,7 +205,7 @@ foreign key (head_employee_id) references employees(employee_id);
 
 desc departments;
 
-#leave_date -> Employees
+#leave_data -> Employees
 alter table leave_data add constraint fk_leave_employee
 foreign key (employee_id) references employees (employee_id);
 
@@ -252,8 +253,4 @@ alter table exit_data add constraint fk_exit_employee
 foreign key (employee_id) references employees(employee_id);
 
 desc exit_data;
-
-
-use hr_analytics;
-select * from departments;
 

@@ -44,12 +44,9 @@ inner join attendance using(employee_id)
 group by employee_id,concat(first_name,' ',last_name)
 order by total_overtime desc limit 10;
 
-
 #Q4. Find the average overtime hours by shift.
-select * from attendance;
 select shift,(avg(overtime_hours)) as avg_overtime_hrs
 from attendance group by shift order by avg_overtime_hrs desc;
-
 
 #Q5. Find the attendance count of each shift.
 select shift,count(*) as Attendance_count
@@ -186,6 +183,15 @@ sum(l.total_days) as total_leave from employees e inner join leave_data l
 on e.Employee_ID=l.Employee_ID group by e.Employee_id,e.First_Name,e.Last_Name
 order by total_leave desc;
 
-#------------------------------Other Table----------------------------------------
+#------------------------------Training Table----------------------------------------
 
+#Q1. Find the total training cost spent by the organization.
+select sum(training_cost) as total_training_cost from training;
 
+#Q2. Find the number of employees certified vs not certified.
+select certification_status,count(*) as employee_count
+from training group by certification_status order by employee_count desc;
+
+#Q3. Find the top training providers by number of trainings conducted.
+select provider,count(*) as training_count
+from training group by provider order by training_count desc;
