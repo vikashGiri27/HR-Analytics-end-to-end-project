@@ -195,3 +195,20 @@ from training group by certification_status order by employee_count desc;
 #Q3. Find the top training providers by number of trainings conducted.
 select provider,count(*) as training_count
 from training group by provider order by training_count desc;
+
+#------------------------------Jobs Table----------------------------------------
+
+#Q1. Find the number of employees in each job grade.
+select j.grade,count(e.employee_id) as employee_count
+from jobs j inner join employees e on j.job_id=e.job_id
+group by j.grade order by employee_count desc;
+
+#Q2. Find the job title with the highest average salary.
+select j.job_title,round(avg(e.salary),2) as avg_salary
+from jobs j inner join employees e on j.job_id=e.job_id
+group by j.job_title order by avg_salary desc limit 10;
+
+#Q3. Find the salary range (min-max) for each job grade.
+select grade,min(minimum_salary) as min_range,max(maximum_salary) as max_range
+from jobs group by grade order by grade;
+
