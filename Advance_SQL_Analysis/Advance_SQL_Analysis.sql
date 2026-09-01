@@ -77,10 +77,16 @@ select year,employee_attrition_count,previous_year_attrition_count,
 employee_attrition_count-previous_year_attrition_count as
 yoy_attrition_difference from yoy_attrition_diff;
 
-
-
 #Q9.Find the hiring success rate of each recruiter.
 select Recruiter_ID,count(*) as total_applications,
 sum(case when Hiring_Status="Hired" then 1 else 0 end) as total_hired,
 round(sum(case when hiring_status="Hired" then 1 else 0 end)*100/count(*),2) as success_rate
 from recruitment group by Recruiter_ID order by success_rate desc;
+
+#Q10. Find high performers who haven't been recommended for promotion despite having 3+ years experience.
+select e.employee_id,concat(e.first_name,' ',e.last_name)as employee_name,
+p.overall_rating,p.promotion_recommendation,e.experience_years from employees e
+inner join performance p on e.Employee_id=p.Employee_ID
+where Experience_Years>=3 and Overall_Rating="excellent"
+and Promotion_Recommendation="No"
+order by Experience_Years desc;
