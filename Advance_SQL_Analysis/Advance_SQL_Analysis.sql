@@ -4,7 +4,7 @@ e.salary from employees e where salary>(select avg(e1.salary)
 from employees e1 where e.Department_ID=e1.department_id);
 
 #Q2. Classify employees into salary bands based on their salary.
-select concat(First_Name,'',last_name) as employee_name,salary,case
+select concat(First_Name,' ',last_name) as employee_name,salary,case
 when salary<80000 then "Low salary"
 when salary between 80000 and 150000 then 'Medium salary'
 when salary >150000 and salary<=200000 then 'High salary'
@@ -76,3 +76,11 @@ lag(count(exit_id)) over(order by year(exit_date)) as
 select year,employee_attrition_count,previous_year_attrition_count,
 employee_attrition_count-previous_year_attrition_count as
 yoy_attrition_difference from yoy_attrition_diff;
+
+
+
+#Q9.Find the hiring success rate of each recruiter.
+select Recruiter_ID,count(*) as total_applications,
+sum(case when Hiring_Status="Hired" then 1 else 0 end) as total_hired,
+round(sum(case when hiring_status="Hired" then 1 else 0 end)*100/count(*),2) as success_rate
+from recruitment group by Recruiter_ID order by success_rate desc;

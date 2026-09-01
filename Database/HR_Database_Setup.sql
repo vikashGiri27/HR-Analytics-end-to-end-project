@@ -28,6 +28,19 @@ set manager_id=nullif(@manager_id,'');
 select * from employees;
 
 #------------------------------------------------------------------------------------------------
+#Department Table
+create table departments(Department_ID varchar(20),Department_Name varchar(100),
+Location varchar(20),Budget decimal(10,2),Head_Employee_ID varchar(20));
+desc departments;
+
+load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Hr_datasetfiles/jobs.csv'
+into table departments
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'
+ignore 1 rows;
+
+#------------------------------------------------------------------------------------------------
 #Jobs Table
 
 create table jobs(Job_ID varchar(30) primary key,Job_Title varchar(100),
