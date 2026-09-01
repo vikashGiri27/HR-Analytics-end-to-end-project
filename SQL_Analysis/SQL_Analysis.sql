@@ -212,3 +212,16 @@ group by j.job_title order by avg_salary desc limit 10;
 select grade,min(minimum_salary) as min_range,max(maximum_salary) as max_range
 from jobs group by grade order by grade;
 
+#------------------------------Recruitment Table----------------------------------------
+
+#Q1. Find the total number of applications received.
+select count(*) as total_applications from recruitment;
+
+#Q2. Find the number of applications by hiring status.
+select hiring_status,count(*) as application_count
+from recruitment group by hiring_status order by application_count desc;
+
+#Q3. Find the average interview score by position.
+select position,round(avg(interview_score),2) as avg_interview_score
+from recruitment group by position order by avg_interview_score desc;
+
