@@ -1,4 +1,3 @@
-use hr_analytics;
 
 #---------------------Employees------------------------------
 
@@ -21,13 +20,13 @@ group by education order by salary desc;
 select employee_id,concat(first_name,' ',last_name) as employee_name,
 experience_years from employees order by Experience_Years desc limit 10;
 
-#Q6. Find the number of employees in each county.
+#Q6. Find the number of employees in each country.
 select country,count(*) as employee_count from employees
 group by country order by employee_count desc;
 
 
 
-/*--------------------------------Attendance Table-------------------------------------*/
+/*--------------------------------Attendance-------------------------------------*/
 
 
 #Q1. Find the number of employees by attendance status.
@@ -183,7 +182,7 @@ sum(l.total_days) as total_leave from employees e inner join leave_data l
 on e.Employee_ID=l.Employee_ID group by e.Employee_id,e.First_Name,e.Last_Name
 order by total_leave desc;
 
-#------------------------------Training Table----------------------------------------
+#------------------------------Training----------------------------------------
 
 #Q1. Find the total training cost spent by the organization.
 select sum(training_cost) as total_training_cost from training;
@@ -196,14 +195,14 @@ from training group by certification_status order by employee_count desc;
 select provider,count(*) as training_count
 from training group by provider order by training_count desc;
 
-#------------------------------Jobs Table----------------------------------------
+#------------------------------Jobs----------------------------------------
 
 #Q1. Find the number of employees in each job grade.
 select j.grade,count(e.employee_id) as employee_count
 from jobs j inner join employees e on j.job_id=e.job_id
 group by j.grade order by employee_count desc;
 
-#Q2. Find the job title with the highest average salary.
+#Q2. Find the top 10 job titles with the highest average salary.
 select j.job_title,round(avg(e.salary),2) as avg_salary
 from jobs j inner join employees e on j.job_id=e.job_id
 group by j.job_title order by avg_salary desc limit 10;

@@ -1,9 +1,8 @@
-#Database----------------------------------------------------------------------------------------
+#-------------------------------Database-------------------------------------------------------
 create database hr_analytics;
 use hr_analytics;
 
-#--------------------------------------------------------------------------------------------------
-#Employee Table dataset								
+#-------------------------Employee Table dataset------------------------------------------------							
 
 create table employees(Employee_ID varchar(20) primary key,First_Name varchar(100),
 Last_Name varchar(100),Gender varchar(20),Date_of_Birth date,Email	varchar(100) unique,
@@ -27,8 +26,8 @@ set manager_id=nullif(@manager_id,'');
 
 select * from employees;
 
-#------------------------------------------------------------------------------------------------
-#Department Table
+#-----------------------------Department Table dataset---------------------------------------------------
+
 create table departments(Department_ID varchar(20) primary key,Department_Name varchar(100),
 Location varchar(20),Budget decimal(10,2),Head_Employee_ID varchar(20));
 desc departments;
@@ -42,8 +41,7 @@ ignore 1 rows;
 
 select * from departments;
 
-#------------------------------------------------------------------------------------------------
-#Jobs Table
+#------------------------------Jobs Table dataset----------------------------------------------------------
 
 create table jobs(Job_ID varchar(30) primary key,Job_Title varchar(100),
 Grade varchar(10),Minimum_Salary decimal(10,2),Maximum_Salary decimal(10,2));
@@ -58,8 +56,8 @@ ignore 1 rows;
 
 select * from jobs;
 
-#------------------------------------------------------------------------------------------------
-#Attendance Table
+#-------------------------------Attendance Table dataset--------------------------------------------
+
 create table Attendance(Attendance_ID varchar(20) primary key,
 Employee_ID varchar(20),Attendance_Date date,Check_In time null,
 Check_Out time null, Working_Hours decimal(4,2),Overtime_Hours decimal(4,2),
@@ -80,8 +78,7 @@ check_out=nullif(@check_out,'');
 
 select * from attendance;
 
-#----------------------------------------------------------------------------------------------------------------------
-#Exit Table
+#-----------------------------Exit Table dataset ----------------------------------------------------------------------
 
 create table Exit_data(Exit_ID varchar(30) primary key,Employee_ID varchar(30) unique,
 Exit_Date date,Exit_Reason varchar(100),Exit_Type varchar(50),
@@ -98,8 +95,7 @@ ignore 1 rows;
 
 select * from exit_data;
 
-#-------------------------------------------------------------------------------------------------------------------------
-#Training Table
+#--------------------------------Training Table----------------------------------------------------------
 create table Training(Training_ID varchar(20) primary key,Employee_ID varchar(20),
 Training_Name varchar(100),Provider	varchar(50),Start_Date date,End_Date date,
 Training_Cost decimal(10,2),Certification_Status varchar(50));
@@ -113,8 +109,7 @@ ignore 1 rows;
 
 select * from training;
 
-#---------------------------------------------------------------------------------------------------------------------------
-#Leave Table
+#--------------------------Leave Table dataset--------------------------------------------------------------
 
 create table leave_data(Leave_ID varchar(20) primary key,Employee_ID	varchar(20),Leave_Type varchar(50),
 Start_Date date,End_Date date,Total_Days int,Approval_Status varchar(50));
@@ -130,8 +125,7 @@ ignore 1 rows;
 
 select * from leave_data;
 
-#--------------------------------------------------------------------------------------------------------------------
-#Payroll
+#-------------------------------------Payroll dataset-----------------------------------------------------
 
 create table payroll(Payroll_ID	varchar(20) primary key,Employee_ID varchar(20),
 Payroll_Month varchar(10),Basic_Salary decimal(10,2),Allowances decimal(10,2),Bonus decimal(10,2),
@@ -147,8 +141,8 @@ lines terminated by '\n'
 ignore 1 rows;
 
 select * from payroll;
-#-----------------------------------------------------------------------------------------------------------
-#Performance
+#-------------------------------Performance dataset--------------------------------------------------------
+
 create table performance(Performance_ID varchar(20) primary key,Employee_ID varchar(20),
 Review_Date date,Reviewer_ID varchar(20),KPI_Score decimal(6,2),Productivity_Score	decimal(6,2),
 Attendance_Score decimal(6,2),Teamwork_Score decimal(6,2),Overall_Rating varchar(30),
@@ -165,8 +159,8 @@ ignore 1 rows;
 
 select * from performance;
 
-#--------------------------------------------------------------------------------------------------------
-#Recruitment
+#-----------------------------------Recruitment----------------------------------------------------
+
 create table Recruitment(Recruitment_ID varchar(20) primary key,Candidate_ID varchar(20),
 Candidate_Name varchar(50),Position varchar(50),Department_ID varchar(20),Application_Date date,
 Interview_Date date,Recruiter_ID varchar(20),Interview_Score decimal(6,2),
@@ -184,8 +178,9 @@ Interview_Date,Recruiter_ID,Interview_Score,Hiring_Status,@Joining_Date)
 set Joining_Date=nullif(@Joining_Date, '');
 
 select * from recruitment;
-#--------------------------------------------------------------------------------------------------------
-# Adding Foreign Key Constraints
+
+
+#-------------------------------Adding Foreign Key Constraints-----------------------------------------
 
 #Employees-> Departments,jobs,self reference manager
 alter table employees add constraint fk_employee_department

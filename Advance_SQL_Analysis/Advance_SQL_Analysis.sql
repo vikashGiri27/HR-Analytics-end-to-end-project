@@ -11,7 +11,6 @@ when salary >150000 and salary<=200000 then 'High salary'
 else 'Very high salary' end as salary_band from employees;
 
 #Q3. Finds employees along with their manager name.
-select * from employees;
 select e.employee_id,concat(e.first_name,' ',e.last_name) as employee_name,
 concat(e1.first_name,' ',e1.last_name) as manager_name
 from employees e Left join employees e1 on e.manager_id=e1.Employee_ID;
